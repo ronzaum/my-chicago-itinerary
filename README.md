@@ -1,5 +1,7 @@
 # My Chicago Itinerary
 
+[Explore the live itinerary](https://ronzaum.github.io/my-chicago-itinerary/phone.html) · [How I built it](https://ronzaum.github.io/my-chicago-itinerary/article/index.html)
+
 A personal, phone-first Chicago itinerary: daily plans, Google Maps, places and food, a booking wallet, a journal, and an archive of colour studies. I chose the colours and shaped the interface around how I like to travel.
 
 This is the full editable source of the **public demo**, with a clean history. It preserves the design and public sightseeing content. Personal booking documents, accommodation details, flights, journal entries and owner credentials are not included.
@@ -43,7 +45,7 @@ npm run check
 npm test
 ```
 
-Upload the contents of `public/` to any static host. If maps are needed, provide `map-config.json` separately and restrict the key to the deployed hostname. No deployment, database or paid service is provisioned by this repository. Keep private documents out of a public site. The map/venue information is a historical trip snapshot, not current travel advice.
+Upload the contents of `public/` to any static host. If maps are needed, provide `map-config.json` separately and restrict the key to the deployed hostname. The included GitHub Pages workflow publishes the static site. In your own repository, configure Pages and provide your own restricted map configuration as the PUBLIC_MAP_CONFIG_JSON Actions secret. No database is included. Keep private documents out of a public site. The map/venue information is a historical trip snapshot, not current travel advice.
 
 ## Reuse and credits
 
