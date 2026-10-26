@@ -1,0 +1,553 @@
+:root{font-family:'FOS Editorial Grotesk Recon',Arial,sans-serif;--c0:#001f7a;--t0:#fff;--c1:#144fff;--t1:#fff;--c2:#99b2ff;--t2:#000;--c3:#4271ff;--t3:#000;--c4:#001f7a;--t4:#fff;--c5:#edf2ff;--t5:#000;color:var(--t2);background:#e8e8e8;font-size:14px}*{box-sizing:border-box}body{margin:0}body:has(.map-expanded){background:var(--c5)}[hidden]{display:none!important}h1,h2,h3,p,figure{margin:0}button,a,input,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulation}button,input{font:inherit}button,a{color:inherit}a{text-underline-offset:3px}button{cursor:pointer;background:transparent;border:0}button:disabled{opacity:.5}button:focus-visible,a:focus-visible,input:focus-visible,summary:focus-visible{outline:2px solid currentColor;outline-offset:3px}p,li{line-height:1.55}button:hover,a:hover{opacity:.82}.phone-app{width:100%;max-width:440px;min-height:100dvh;margin:0 auto;background:var(--c2);color:var(--t2);padding-bottom:env(safe-area-inset-bottom)}.appbar{background:var(--c0);color:var(--t0);display:grid;grid-template-columns:48px minmax(0,1fr) 48px;align-items:center;min-height:64px;padding:env(safe-area-inset-top) 10px 0}.appbar>a:not(.icon-button){text-align:center;text-decoration:none;font-size:14px;font-weight:500;letter-spacing:-.15px}.icon-button{height:48px;display:flex;justify-content:center;align-items:center;text-decoration:none;font-size:24px}.days{display:grid;grid-template-columns:repeat(4,1fr);background:var(--c0);color:var(--t0)}.days a{text-align:center;text-decoration:none;font-size:26px;font-weight:400;padding:12px 5px;border-top:1px solid #ffffff30;border-right:1px solid #ffffff25;letter-spacing:-1px}.days a[aria-current]{background:var(--c1);color:#fff}.view-switch{display:grid;grid-template-columns:repeat(2,1fr);background:var(--c5);color:var(--t5);position:sticky;top:0;z-index:20}.view-switch a{cursor:pointer;text-align:center;padding:14px 12px;text-decoration:none;font-size:12px;border-bottom:3px solid transparent;min-height:47px}.view-switch a[aria-current]{border-bottom-color:currentColor;font-weight:600}.day-head{padding:24px 22px 26px;background:var(--c1);color:var(--t1)}.eyebrow{font-size:10px;letter-spacing:1.2px;text-transform:uppercase;font-weight:600;display:block;margin-bottom:12px}.day-head h1{font-size:34px;line-height:1.05;font-weight:500;letter-spacing:-1.4px;max-width:350px}.day-head>p:last-child{font-size:12px;margin-top:14px}.access-note{font-size:11px;margin-top:9px;opacity:.8}.primary{background:var(--c4);color:var(--t4);text-decoration:none}.booking-link{font-size:11px;margin-top:9px;display:inline-block}.transfer{font-size:11px;padding:9px 0;color:inherit;opacity:.72}.transfer span{padding-right:6px}.transfer.long{opacity:1;font-weight:600}.day-caution{padding:15px 22px;background:var(--c5);color:var(--t5);font-size:12px}.day-caution summary{cursor:pointer;font-weight:600;line-height:1.45}.day-caution p{margin-top:12px}.day-caution a{display:inline-block;padding-top:12px}.timeline{padding:26px 22px;background:var(--c5);color:var(--t5)}.timeline-stop{border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent);padding:12px 0}.stop-row{display:flex;gap:14px}.stop-number{font-size:20px;font-weight:400;letter-spacing:-.5px;width:26px;flex:none;opacity:.5;padding-top:1px}.stop-copy{min-width:0;flex:1}.stop-title{display:block;text-decoration:none}.stop-copy h3{font-size:21px;font-weight:400;letter-spacing:-.65px;line-height:1.2}.stop-copy p{font-size:12px;margin-top:7px}.row-actions{display:flex;align-items:center;gap:20px;font-size:11px;margin-top:5px}.row-actions>*{min-height:42px;display:flex;align-items:center}.optional{display:block;font-size:10px;opacity:.58;margin-bottom:4px}.meal-options{margin:10px 0 3px 40px;border-top:1px solid color-mix(in srgb,currentColor 18%,transparent);font-size:12px}.meal-options summary{padding:13px 0;cursor:pointer;line-height:1.4}.meal-options fieldset{border:0;padding:0;margin:0;min-width:0}.meal-choice{display:flex;align-items:flex-start;gap:9px;border-top:1px solid color-mix(in srgb,currentColor 18%,transparent);padding-top:15px;cursor:pointer}.meal-choice input{accent-color:var(--c4);margin:3px 0 0;flex:none;width:17px;height:17px}.meal-choice strong{font-size:15px;font-weight:500;display:block;line-height:1.3}.meal-choice span span{display:block;font-size:12px;margin-top:5px}.meal-choice small{display:block;font-size:11px;opacity:.75;margin-top:7px;line-height:1.5}.meal-detail{display:inline-flex;font-size:11px;min-height:40px;align-items:center;margin-left:26px}.fine{font-size:11px;opacity:.75;line-height:1.5}.day-notes{padding:20px 22px;background:var(--c3);color:var(--t3);font-size:12px}.day-notes summary{cursor:pointer}.day-notes p{margin-top:15px}.day-notes a{display:inline-block;margin-top:15px}.save-note{padding:18px 22px;font-size:10px;background:var(--c5);color:var(--t5);opacity:.8}#app-footer{display:flex;justify-content:space-between;gap:15px;padding:22px;background:var(--c0);color:var(--t0);font-size:11px}#trip-clock{white-space:nowrap}.back-link{display:block;padding:16px 22px;font-size:12px;background:var(--c5);color:var(--t5);text-decoration:none}.detail-head{padding:26px 22px;background:var(--c1);color:var(--t1)}.detail-head h1{font-size:36px;line-height:1.1;letter-spacing:-1.4px;font-weight:500;overflow-wrap:anywhere}.detail-head>p:last-child{margin-top:16px;font-size:13px}.detail-actions{display:flex;background:var(--c3);color:var(--t3)}.detail-actions>*{min-height:54px;flex:1;text-align:center;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:12px;border-right:1px solid #8885;padding:10px 7px}.photo-strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;background:var(--c5);color:var(--t5)}.photo-strip figure{flex:0 0 88%;scroll-snap-align:start;padding:0 1px 0 0}.photo-strip figure:only-child{flex-basis:100%}.photo-strip img{width:100%;height:240px;object-fit:cover;display:block;background:var(--c5)}.photo-strip figcaption{padding:10px 15px;font-size:10px;line-height:1.5}.fact-section{padding:25px 22px;border-bottom:1px solid color-mix(in srgb,currentColor 20%,transparent);background:var(--c2);color:var(--t2)}.fact-section h2{font-size:22px;font-weight:500;letter-spacing:-.5px;margin-bottom:12px}.fact-section p,.fact-section li{font-size:14px}.fact-section ul{margin:0;padding-left:19px}.fact-section li+li{margin-top:10px}.entry-note{padding:16px 22px;background:var(--c3);color:var(--t3);font-size:12px}.sources{padding:20px 22px;background:var(--c5);color:var(--t5);font-size:11px}.sources summary{cursor:pointer}.sources p{margin-top:14px}.detail-bottom{display:flex;justify-content:space-between;padding:18px 22px;background:var(--c4);color:var(--t4);font-size:12px}.detail-bottom>*{min-height:44px;display:flex;align-items:center}.flight-summary{padding:24px 22px;background:var(--c3);color:var(--t3)}.flight-time{display:flex;align-items:center;gap:20px}.flight-time strong{font-size:52px;font-weight:400;letter-spacing:-2.5px}.flight-time>span{font-size:14px;line-height:1.5}.flight-summary>p{font-size:12px;margin-top:9px}.flight-summary>a{display:inline-flex;font-size:12px;padding:16px 0}.flight-summary details{border-top:1px solid #8885;padding-top:12px;font-size:12px}.flight-summary details p{margin-top:12px}.flight-summary summary{cursor:pointer}.booking-facts{padding:0 22px 25px}.booking-facts dl,.fact-section dl{margin:0 0 20px}.booking-facts dl>div,.fact-section dl>div{padding:15px 0;border-bottom:1px solid color-mix(in srgb,currentColor 20%,transparent)}dt{font-size:11px;opacity:.65;margin-bottom:5px}dd{margin:0;font-size:16px;line-height:1.45;overflow-wrap:anywhere}.booking-facts>.primary{display:block;text-align:center;min-height:48px;padding:14px;font-size:12px}.document-link{display:block;margin:15px 0;padding:15px 16px;background:var(--c4);color:var(--t4);text-decoration:none;font-size:13px}.document-link small{display:block;font-size:10px;margin-top:6px;opacity:.8}.bookings-list{padding:0 22px}.bookings-list article{padding:24px 0;border-bottom:1px solid #8885}.bookings-list h2{font-size:24px;font-weight:400;letter-spacing:-.8px}.bookings-list p{font-size:12px;margin:10px 0}.bookings-list a:not(.document-link){font-size:12px;display:inline-block;min-height:42px;padding-top:10px}.notice{position:fixed;bottom:calc(18px + env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);max-width:408px;width:calc(100% - 32px);padding:14px 17px;z-index:100;background:var(--c0);color:var(--t0);display:flex;align-items:center;gap:15px;box-shadow:0 3px 15px #0004;font-size:12px}.map-intro{padding:15px 18px;background:var(--c1);color:var(--t1);display:flex;justify-content:space-between;gap:15px;font-size:11px}#map-frame{width:100%;height:1000px;min-height:400px;border:0;display:block;background:var(--c5)}.map-expanded>.appbar,.map-expanded>.days,.map-expanded>.view-switch,.map-expanded #app-footer,.map-expanded .map-intro{display:none}.map-expanded #map-frame{min-height:100dvh}.map-expanded{padding-bottom:0}.loading{padding:35px 22px}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}:root[data-theme=dark]{background:#181818}@media(max-width:374px){.detail-head h1{font-size:31px}.day-head h1{font-size:30px}.row-actions{gap:13px}.meal-options{margin-left:0}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+
+.map-expanded #map-frame{height:100dvh!important;min-height:100dvh}
+
+.stop-context{padding:20px 22px;background:var(--c5);color:var(--t5)}.stop-context p{font-size:13px}.stop-context .eyebrow{font-size:10px}.stop-context details{font-size:11px;margin-top:12px}.stop-context details p{margin-top:12px;font-size:12px}.stop-context summary{cursor:pointer}
+
+/* Compact rows retain full-width dividers and a single action strip. */
+.timeline{padding:0;background:var(--c5);color:var(--t5)}
+.timeline-stop{--row-base:var(--c2);--row-shade:var(--c5);--stop-bg:var(--row-base);padding:0;margin:0;background:var(--stop-bg);border-bottom:1px solid color-mix(in srgb,currentColor 14%,transparent)}
+:root[data-theme=light] .timeline-stop{--row-base:var(--c5);--row-shade:var(--c2)}
+.timeline-stop[data-type=coffee],.timeline-stop[data-type=food]{--stop-bg:color-mix(in srgb,var(--row-base) 93%,var(--row-shade))}
+.timeline-stop[data-type=architecture],.timeline-stop[data-type=art]{--stop-bg:color-mix(in srgb,var(--row-base) 97%,var(--row-shade))}
+.timeline-stop[data-type=shops],.timeline-stop[data-type=evening]{--stop-bg:color-mix(in srgb,var(--row-base) 95%,var(--row-shade))}
+.timeline-stop[data-type=walking],.timeline-stop[data-type=flight]{--stop-bg:color-mix(in srgb,var(--row-base) 98%,var(--row-shade))}
+.timeline-stop>.transfer{padding:8px 16px 0;margin:0;font-size:10px;line-height:1.35;opacity:.65}
+.stop-row{padding:12px 16px;gap:12px;align-items:flex-start}
+.stop-number{display:block;width:24px;flex:none;padding-top:1px;font-size:21px;line-height:1.2;opacity:.65;font-variant-numeric:tabular-nums}
+.stop-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.stop-title{min-width:0}.stop-copy h2{font-size:21px;line-height:1.2;font-weight:400;letter-spacing:-.6px}
+.visit-label{flex:none;font-size:10px;line-height:1.4;opacity:.6;text-align:right;max-width:65px}
+.stop-copy>p{font-size:12px;line-height:1.45;margin-top:5px}
+.stop-copy .access-note{font-size:11px;opacity:.65;margin:0}
+.row-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;margin:0;border-top:1px solid color-mix(in srgb,currentColor 10%,transparent)}
+.row-actions.has-booking{grid-template-columns:repeat(4,minmax(0,1fr))}
+.row-actions>a{display:flex;align-items:center;justify-content:center;min-height:40px;padding:9px 3px;margin:0;text-decoration:none;font-size:11px;white-space:nowrap;border-right:1px solid color-mix(in srgb,currentColor 10%,transparent)}
+.row-actions>a:last-child{border-right:0}
+.row-actions>.booking-link{background:color-mix(in srgb,var(--stop-bg) 85%,var(--c3))}
+.meal-options{margin:0;border-top:1px solid color-mix(in srgb,currentColor 10%,transparent)}
+.meal-options summary{padding:11px 16px;font-size:11px}.meal-options fieldset{padding:0}
+.meal-choice{padding:14px 16px 0;border-top:1px solid color-mix(in srgb,currentColor 10%,transparent)}
+.meal-detail{margin:0;padding:0 16px 0 42px}.meal-options>.fine{padding:12px 16px}
+.day-head{padding:16px}.day-head .eyebrow{margin-bottom:7px}.day-head h1{font-size:27px;line-height:1.1;letter-spacing:-.8px}.day-head>p:last-child{margin-top:8px;font-size:12px}
+#theme svg{display:block;flex:none}
+@media(max-width:374px){.stop-row{padding:12px;gap:10px}.stop-heading{gap:7px}.visit-label{max-width:52px}.row-actions>a{font-size:10px}}
+
+/* A clear title, one practical cue and quiet actions; one divider per stop. */
+.timeline-stop{border-bottom-color:color-mix(in srgb,currentColor 12%,transparent)}
+.stop-row{padding:14px 16px 0;gap:12px;text-decoration:none}
+.stop-number{font-size:12px;line-height:25px;opacity:.48}
+.stop-copy h2{font-size:21px;font-weight:500;line-height:1.2;letter-spacing:-.5px}
+.stop-copy>.stop-meta{display:flex;align-items:baseline;flex-wrap:nowrap;gap:10px;white-space:nowrap;overflow:hidden;margin-top:6px;font-size:12px;line-height:1.45}
+.visit-label{font-size:12px;max-width:none;text-align:left;opacity:.7}
+.stop-cue{opacity:.7;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row-actions{display:flex;gap:20px;padding:0 16px 0 52px;border:0;min-height:44px}
+.row-actions>a{border:0;min-height:44px;font-size:12px;padding:8px 0;min-width:44px;justify-content:flex-start;opacity:.7}
+.row-actions>.booking-link{background:none;font-weight:600;opacity:1;margin-left:auto}
+.timeline-stop>.transfer{padding:12px 16px 0 52px;font-size:11px;opacity:.6;font-weight:400}
+.timeline-stop>.transfer.long{opacity:.85}
+.timeline-stop>.transfer+.stop-row{padding-top:8px}
+.meal-options{border:0}
+.meal-options summary{font-size:12px;padding:0 16px 12px 52px}
+@media(max-width:374px){.stop-row{padding:14px 12px 0;gap:10px}.timeline-stop>.transfer{padding-left:46px}.meal-options summary{padding-left:46px}.row-actions{padding-left:46px;padding-right:12px}.row-actions>a{font-size:12px}}
+
+/* Place first: type at the right, no number column, connected transfer arrow. */
+.stop-row{padding:14px 16px 0}
+.stop-heading{display:flex;align-items:baseline;gap:12px}
+.stop-heading h2{flex:1;min-width:0}
+.stop-heading .visit-label{flex:none;max-width:none;text-align:right}
+.row-actions,.row-actions.has-booking{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:8px 16px;gap:6px;min-height:60px}
+.row-actions>a,.row-actions>button{display:flex;align-items:center;justify-content:center;min-width:0;min-height:44px;margin:0;padding:10px 4px;border:0;font-size:12px;line-height:20px;font-weight:500;white-space:nowrap;text-decoration:none;opacity:1;background:color-mix(in srgb,var(--stop-bg) 87%,var(--c3));color:inherit}
+.row-actions>.booking-link{margin:0;background:var(--c3);color:var(--t3);min-height:44px;padding:10px 4px;font-size:12px;font-weight:500;text-decoration:none;display:flex;align-items:center;justify-content:center;opacity:1}
+:root[data-theme=dark] .row-actions>.booking-link{background:var(--c4);color:var(--t4)}
+.timeline-stop>.transfer{position:relative;padding:18px 16px 0;font-size:11px;opacity:.7}
+.transfer .transfer-arrow{position:absolute;display:block;left:16px;top:-1px;width:9px;height:14px;overflow:visible}
+
+.transfer .transfer-text{display:block;padding:0}
+.meal-options summary{padding-left:16px}
+.booking-todos{padding:22px 16px;background:var(--c5);color:var(--t5)}
+.booking-todos>h2{font-size:21px;font-weight:500;margin-bottom:14px}
+.booking-todos>p{font-size:12px}
+.todo-item{padding:14px 0;border-bottom:1px solid color-mix(in srgb,currentColor 15%,transparent)}
+.todo-item label{display:flex;gap:10px;align-items:flex-start;font-size:16px;cursor:pointer}
+.todo-item input{width:18px;height:18px;flex:none;accent-color:var(--c4)}
+.todo-item small{display:block;font-size:11px;opacity:.7;margin-top:4px}
+.todo-item:has(input:checked) label>span{text-decoration:line-through;opacity:.6}
+.todo-item p{font-size:12px;margin-top:9px}
+.todo-actions{display:flex;align-items:center;justify-content:space-between;font-size:12px}
+.todo-actions>*{min-height:44px;display:flex;align-items:center}
+.booking-todos>.fine{margin-top:16px}
+@media(max-width:374px){.stop-row{padding-left:12px;padding-right:12px}.row-actions,.row-actions.has-booking{padding-left:12px;padding-right:12px}.timeline-stop>.transfer{padding-left:12px;padding-right:12px}.transfer .transfer-arrow{left:12px}.meal-options summary{padding-left:12px}}
+
+/* Approved 9B: continuous timeline, outlined navigation, underlined booking. */
+.phone-app{max-width:var(--shell-width)}
+.appbar{min-height:56px}
+.days a{padding:10px 5px;border-right:0;font-size:25px}
+.view-switch a{min-height:43px;padding:12px;border-bottom-width:2px}
+.day-head{padding:17px 16px 18px}
+.day-head h1{font-size:27px}
+.timeline-stop{position:relative;border:0}
+.timeline-stop:before{content:'';position:absolute;left:16px;top:0;bottom:0;width:1px;background:color-mix(in srgb,currentColor 15%,transparent);pointer-events:none}
+.timeline-stop:after{content:'';position:absolute;left:13px;top:18px;width:7px;height:7px;border-radius:50%;background:var(--c3);pointer-events:none}
+.timeline-stop:has(>.transfer):after{top:42px}
+.timeline .stop-row{padding:var(--space-row) 16px 0 31px}
+.timeline-stop>.transfer{padding:10px 16px 0 31px;font-size:10px;line-height:1.3;font-weight:400;opacity:.7}
+.timeline-stop>.transfer+.stop-row{padding-top:9px}
+.transfer .transfer-arrow{display:none}
+.stop-heading .visit-label{font-size:11px}
+.timeline .row-actions,.timeline .row-actions.has-booking{padding:9px 16px 8px 31px;gap:6px;min-height:0}
+.timeline .row-actions>a,.timeline .row-actions>button{min-height:44px;padding:10px 3px;font-size:11px;line-height:22px;border-radius:5px;background:transparent;border:1px solid color-mix(in srgb,currentColor 15%,transparent)}
+.timeline .row-actions>.booking-link{background:var(--c3);color:var(--t3);border-color:transparent;text-decoration:underline;text-underline-offset:3px;font-weight:500}
+:root[data-theme=dark] .timeline .row-actions>.booking-link{background:var(--c4);color:var(--t4)}
+.timeline .row-actions>.task-link,:root[data-theme=dark] .timeline .row-actions>.task-link{background:transparent;color:inherit;border-color:color-mix(in srgb,currentColor 25%,transparent);text-decoration:none;font-weight:400}
+.nav-icon{width:19px;height:19px;display:block;flex:none}
+.timeline .meal-options summary{display:flex;align-items:center;min-height:44px;padding:8px 16px 8px 31px;font-size:11px;text-decoration:underline;text-underline-offset:3px}
+.timeline .meal-choice{padding-left:31px}.timeline .meal-detail{padding-left:57px}.timeline .meal-options>.fine{padding-left:31px}
+
+/* Quiet distinctions for meals and optional stops. */
+.appbar>a:not(.icon-button){font-weight:500;text-transform:uppercase;font-size:12px;letter-spacing:.35px}
+.timeline-stop[data-type=coffee],.timeline-stop[data-type=food]{--stop-bg:color-mix(in srgb,var(--row-base) 91%,var(--c3))}
+.timeline-stop[data-optional=true] .stop-copy{color:color-mix(in srgb,var(--t5) 72%,var(--stop-bg))}
+.timeline-stop[data-optional=true] .stop-cue,.timeline-stop[data-optional=true] .visit-label{opacity:1}
+.day-head>.day-story{line-height:1.5;font-size:12px;max-width:none;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+
+/* Keep the timeline dot aligned with its title even beside longer rail transfers. */
+.timeline-stop:after{display:none}
+.timeline .stop-row{position:relative}
+.timeline .stop-row:before{content:'';position:absolute;left:13px;top:18px;width:7px;height:7px;border-radius:50%;background:var(--c3)}
+.timeline-stop>.transfer+.stop-row:before{top:14px}
+.transfer .rail-leg,.transfer .rail-transfer{display:block;padding:0;margin-top:4px;line-height:1.45}
+.transfer .rail-leg strong{font-weight:600}
+.transfer .rail-transfer{font-size:9px;opacity:.85}
+
+/* Final wordmark: option 6 size with option 5's open A/R counters. */
+@font-face{font-family:'Trip Puff Open';font-style:normal;font-weight:700;font-display:swap;src:url('fonts/trip-puff-open.ttf') format('truetype')}
+/* The supplied reconstruction contains Regular only; never synthesize a bold face. */
+@font-face{font-family:'FOS Editorial Grotesk Recon';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/FOSEditorialGroteskRecon-Regular.woff2') format('woff2')}
+:root{font-synthesis:none;--shell-width:440px;--space-label:7px;--space-related:12px;--space-row:13px;--space-section:24px}
+.appbar>a:not(.icon-button){font-family:'Trip Puff Open',sans-serif;font-size:19.5px;font-weight:700;letter-spacing:-.4px;text-transform:uppercase;white-space:nowrap;line-height:1.6;color:#f7f8ff}
+#theme{color:#fff}
+@media(max-width:359px){.appbar>a:not(.icon-button){font-size:17px}}
+
+/* When the dates leave the screen, the sticky switch becomes the top band. */
+.view-switch{transition:background-color 140ms ease,color 140ms ease}
+.view-switch.is-stuck{background:var(--c1);color:var(--t1)}
+@media(prefers-reduced-motion:reduce){.view-switch{transition:none}}
+
+/* A date and story, then compact transfer/category rows. */
+.day-head .day-date{font-size:18px;line-height:1.35;letter-spacing:-.35px;max-width:none;font-weight:500}
+.day-head>.day-story{margin-top:9px}
+.transfer-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px;min-height:14px}
+.transfer-heading .transfer-text{min-width:0}
+.transfer-heading .visit-label{font-size:10px;line-height:1.3;opacity:1;white-space:nowrap}
+.timeline-stop>.transfer{opacity:1}
+.transfer-heading,.transfer .rail-leg,.transfer .rail-transfer{color:color-mix(in srgb,var(--t5) 70%,var(--stop-bg))}
+.transfer .rail-leg,.transfer .rail-transfer{margin-top:3px;line-height:1.3;font-size:10px;opacity:1}
+#app-footer{align-items:center;padding:10px 16px;min-height:64px}
+
+/* Final day and map share one header, compact type and quiet controls. */
+:root[data-theme=dark] .timeline .stop-row:before{background:color-mix(in srgb,var(--c4) 68%,white)}
+:root[data-theme=dark] .timeline .row-actions>.booking-link{color:color-mix(in srgb,var(--t4) 86%,var(--c3))}
+.meal-options summary{list-style:none;display:flex;align-items:center;gap:9px}
+.meal-options summary::-webkit-details-marker{display:none}
+.meal-options summary:after{content:'';width:6px;height:6px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-top:-3px}
+.meal-options[open] summary:after{transform:rotate(225deg);margin-top:3px}
+.meal-options[open]{padding-bottom:10px}
+.timeline .meal-choice{padding-right:16px}
+.meal-choice strong{font-size:16px}.meal-choice span span{font-size:12px}.meal-choice small{font-size:11px}
+.meal-pending{display:flex;gap:12px;padding:16px 16px 14px 31px;border-top:1px solid color-mix(in srgb,currentColor 12%,transparent);opacity:.64}
+.meal-pending strong{font-size:14px;font-weight:500}.meal-pending p{font-size:11px;margin-top:5px}.pending-number{font-size:11px;padding-top:3px}
+.timeline .meal-options>.fine{padding:8px 16px 4px 31px;line-height:1.5}
+.detail-head{padding:20px 16px}.detail-head h1{font-size:27px;letter-spacing:-.6px}.detail-head>p:last-child{font-size:12px;margin-top:10px}
+.fact-section,.stop-context,.sources,.bookings-list,.booking-facts{padding-left:16px;padding-right:16px}.fact-section{padding-top:20px;padding-bottom:20px}
+.fact-section h2{font-size:20px}.fact-section p,.fact-section li{font-size:13px}.photo-strip img{height:220px}
+.detail-actions>*{min-height:44px;font-size:11px}.back-link{padding:14px 16px;font-size:11px}
+.bookings-list h2{font-size:21px}.flight-summary{padding:20px 16px}.flight-time strong{font-size:40px}
+#map-frame{min-height:400px}
+
+/* Separate the view tabs from the dark date band; keep the scrolled story colour. */
+:root[data-theme=dark] .view-switch:not(.is-stuck){background:color-mix(in srgb,var(--c1) 82%,var(--c4));color:var(--t1)}
+
+/* Inventory is a full viewport of the selected day's pale/deep tone. */
+body.inventory-open{background:var(--c5);color:var(--t5)}
+.inventory-open .phone-app{max-width:none;background:var(--c5);color:var(--t5);min-height:100dvh}
+.inventory-open .appbar,.inventory-open #days,.inventory-open #view-switch,.inventory-open #app-footer{display:none!important}
+.inventory-surface{max-width:520px;margin:auto;padding:calc(20px + env(safe-area-inset-top)) 24px calc(36px + env(safe-area-inset-bottom));font-size:12px;min-height:100dvh}
+.inventory-top{display:flex;align-items:center;justify-content:space-between;min-height:44px;margin-bottom:34px;font-size:12px}
+.inventory-top a{display:flex;align-items:center;min-height:44px;text-decoration:none}
+.inventory-surface h1,.inventory-surface h2{font-size:21px;font-weight:400;line-height:1.25;letter-spacing:-.4px}
+.inventory-surface h1{margin-bottom:25px}
+.inventory-menu a{display:flex;align-items:baseline;gap:20px;padding:22px 0;border-top:1px solid color-mix(in srgb,currentColor 18%,transparent);text-decoration:none}
+.inventory-number{font-size:21px;opacity:.45;font-variant-numeric:tabular-nums}
+.inventory-menu strong{font-size:21px;font-weight:400;line-height:1.3;display:block}
+.inventory-menu small{font-size:12px;display:block;margin-top:6px;opacity:.7;line-height:1.5}
+.inventory-menu a:last-child{border-bottom:1px solid color-mix(in srgb,currentColor 18%,transparent)}
+.inventory-surface p,.inventory-surface small,.inventory-surface label,.inventory-surface input,.inventory-surface textarea,.inventory-surface select,.inventory-surface button,.inventory-surface dt,.inventory-surface dd{font:inherit;font-size:12px;line-height:1.6}
+.inventory-surface a,.inventory-surface button,.inventory-surface select{touch-action:manipulation}
+.inventory-surface button:focus-visible,.inventory-surface textarea:focus-visible,.inventory-surface select:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.inventory-search{position:sticky;top:0;z-index:2;background:var(--c5);padding:12px 0 16px;border-bottom:1px solid color-mix(in srgb,currentColor 20%,transparent)}
+.inventory-search label{display:block;margin-bottom:8px}.search-line{display:flex;border:1px solid color-mix(in srgb,currentColor 35%,transparent)}
+.inventory-search input{width:100%;min-width:0;padding:12px;background:transparent;color:inherit;border:0;min-height:44px;border-radius:0}
+.inventory-search input::placeholder,.inventory-surface textarea::placeholder{color:inherit;opacity:.6}
+.search-line button{padding:10px;min-width:48px}.search-filters{display:flex;gap:10px;margin-top:10px}.search-filters select{width:100%;min-width:0;border:1px solid color-mix(in srgb,currentColor 30%,transparent);padding:10px 8px;min-height:44px;background:var(--c5);color:inherit;border-radius:0}.search-filters option{color:var(--t5);background:var(--c5)}
+#result-count{margin-top:12px;opacity:.7}.reference-entry,.booking-entry{border-bottom:1px solid color-mix(in srgb,currentColor 20%,transparent);padding:20px 0}
+.reference-entry summary{cursor:pointer;padding-right:16px}.reference-entry summary strong{font-size:21px;font-weight:400;line-height:1.25}.reference-entry summary small{display:block;margin-top:6px;opacity:.65}.reference-entry p,.booking-entry p{margin-top:12px}.reference-links{display:flex;flex-wrap:wrap;gap:20px}.reference-links a{min-height:44px;display:inline-flex;align-items:center}.reference-sources{overflow-wrap:anywhere;opacity:.8}.record-kind{opacity:.7;margin-bottom:10px}.booking-entry dl{display:grid;gap:10px;margin:16px 0}.booking-entry dd{margin:0}.inventory-surface .booking-todos{padding:var(--space-section) 0;background:transparent;color:inherit}.inventory-surface .todo-item{padding:16px 0}.inventory-empty{padding:32px 0;opacity:.75}.inventory-empty p{margin-top:12px}.library-empty{padding-top:60px;text-align:center}.photo-outline{width:64px;height:80px;border:1px solid currentColor;transform:rotate(-7deg);margin:0 auto 32px;position:relative}.photo-outline:after{content:'';position:absolute;inset:6px -8px -6px 8px;border:1px solid currentColor;background:var(--c5);transform:rotate(12deg)}
+.food-intro{padding:0 0 24px;border-bottom:1px solid color-mix(in srgb,currentColor 20%,transparent)}.food-pick{padding:24px 0;border-bottom:1px solid color-mix(in srgb,currentColor 20%,transparent)}.food-pick h2{font-size:24px;margin:0 0 14px}.food-pick p{margin-top:10px}.food-pick .reference-links{margin-top:12px}.food-more{padding:28px 0}.food-more h2{margin-bottom:12px}.food-more .inventory-action{margin-top:18px}
+.cover-kicker{margin:16px 0 10px;opacity:.65}.trip-cover>h2{margin-top:16px;font-size:21px}.cover-intro{margin:16px 0 28px}.cover-chapter{padding-bottom:28px}.cover-chapter img{display:block;width:100%;height:280px;object-fit:cover}.cover-chapter figcaption{font-size:12px;line-height:1.5;opacity:.7;margin-top:8px}.cover-chapter h2{margin-bottom:12px}.inventory-action{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:12px 18px;background:var(--c4);color:var(--t4);text-decoration:none;border:0}
+#journal-form label{display:block;margin-bottom:12px}.inventory-surface textarea{display:block;width:100%;resize:vertical;border:1px solid color-mix(in srgb,currentColor 30%,transparent);color:inherit;background:transparent;padding:14px;border-radius:0;min-height:180px;font-family:inherit}.journal-save{display:flex;align-items:center;justify-content:space-between;gap:20px;margin:12px 0}.journal-save span{opacity:.65;max-width:180px}.journal-save button{flex:none}#journal-status{margin:12px 0}#journal-entries{padding-top:24px}.journal-entry{padding:24px 0;border-top:1px solid color-mix(in srgb,currentColor 20%,transparent)}.journal-entry time{opacity:.65;font-size:12px;line-height:1.5}.journal-entry p{white-space:pre-wrap;overflow-wrap:anywhere;margin-top:14px}
+
+/* Inventory shares the day palette, with open spacing and tiny playful controls. */
+body.inventory-open{--inventory-bg:var(--c3);--inventory-ink:var(--t3);--c5:var(--inventory-bg);--t5:var(--inventory-ink);background:var(--inventory-bg);color:var(--inventory-ink)}
+:root[data-theme=dark] body.inventory-open{--inventory-bg:var(--day-deep);--inventory-ink:#fff}
+.inventory-open .phone-app{max-width:var(--shell-width);background:var(--inventory-bg);color:var(--inventory-ink)}
+.inventory-open .appbar{display:grid!important;background:var(--c0);color:var(--t0)}
+.inventory-open #theme,.inventory-open .appbar>a{color:inherit}
+.inventory-surface{max-width:var(--shell-width);padding:0 16px calc(24px + env(safe-area-inset-bottom));min-height:calc(100dvh - 64px - env(safe-area-inset-top))}
+.inventory-top{margin:0;padding:8px 0;min-height:52px}
+.inventory-surface h1{margin:var(--space-related) 0 var(--space-section)}
+.inventory-inventory{padding:0;display:flex;flex-direction:column;justify-content:center}
+.inventory-menu{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(3,minmax(110px,1fr));width:min(320px,calc(100% - 40px));height:clamp(360px,62dvh,540px);margin:auto}
+.inventory-menu a{--icon-paper:var(--inventory-bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px 8px;border:0;text-align:center;color:var(--t0);background:transparent;text-decoration:none}
+.inventory-menu a:last-child{border:0}
+.inventory-menu a>span{font-size:12px;font-weight:400;letter-spacing:0}
+.inventory-menu svg{width:34px;height:34px;flex:none}
+.inventory-menu a:is(:hover,:focus-visible,:active){opacity:1;background:transparent;outline:none}
+.inventory-menu a:focus-visible>span{text-decoration:underline;text-underline-offset:4px}
+@media(max-height:640px){.inventory-menu a{gap:10px;padding:16px 8px}}
+
+/* Reference reading surface follows the itinerary's compact spacing. */
+body.inventory-open.reference-open{--c5:inherit;--t5:inherit;--inventory-bg:var(--c5);--inventory-ink:#000;background:var(--inventory-bg);color:var(--inventory-ink)}
+:root[data-theme=dark] body.inventory-open.reference-open{--inventory-bg:var(--c0);--inventory-ink:#fff}
+.reference-open .phone-app{background:var(--inventory-bg);color:var(--inventory-ink)}
+.inventory-reference{padding:0 0 calc(24px + env(safe-area-inset-bottom))}
+.inventory-reference>h1.sr-only{margin:0}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .inventory-search{padding:13px 16px 12px 31px;background:var(--inventory-bg);border:0;color:var(--inventory-ink)}
+.inventory-bookings .inventory-search{margin:0 -16px}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .inventory-search>label{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .search-line{background:#4271ff;color:#000;border:1px solid currentColor}
+:root[data-theme=dark] .inventory-surface:is(.inventory-reference,.inventory-bookings) .search-line{background:#2956d9;color:#fff}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .search-line input::placeholder{opacity:1}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .search-line button:is(:hover,:focus-visible){opacity:1}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .search-filters select{background:var(--inventory-bg);color:var(--inventory-ink)}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) .search-filters option{background:var(--inventory-bg);color:var(--inventory-ink)}
+.inventory-surface:is(.inventory-reference,.inventory-bookings) #result-count{margin-top:var(--space-label);font-size:11px}
+.inventory-reference .reference-entry{padding:0;border-bottom:1px solid color-mix(in srgb,currentColor 15%,transparent)}
+.inventory-reference .reference-entry summary{position:relative;display:block;list-style:none;padding:var(--space-row) 34px var(--space-row) 31px}
+.inventory-reference .reference-entry summary::-webkit-details-marker{display:none}
+.inventory-reference .reference-entry summary:after{content:'+';position:absolute;right:16px;top:15px;font-size:16px}
+.inventory-reference .reference-entry[open] summary:after{content:'−'}
+.inventory-reference .reference-entry summary strong{font-size:21px;line-height:1.2;font-weight:400;letter-spacing:-.65px}
+.inventory-reference .reference-entry summary small{font-size:12px;line-height:1.5;margin-top:var(--space-label);opacity:1}
+.reference-hero{width:100%;margin:0}
+.reference-hero img{display:block;width:100%;aspect-ratio:16/9;height:auto;object-fit:cover;background:var(--c2)}
+.reference-hero figcaption{padding:7px 16px 0 31px;font-size:11px;line-height:1.5}
+.reference-copy{padding:0 16px 13px 31px}
+.inventory-reference .reference-copy>p{margin-top:7px}
+.inventory-reference .reference-links{gap:20px;margin-top:5px;font-size:11px}
+.inventory-reference .reference-sources{opacity:1;border-top:1px solid color-mix(in srgb,currentColor 15%,transparent);margin-top:9px;padding-top:13px}
+.inventory-reference .reference-sources h2{font-size:12px;font-weight:600;letter-spacing:0}
+.inventory-reference .reference-sources p{font-size:12px;line-height:1.55;margin-top:7px}
+.reference-sources cite{font-style:italic}.source-publication{font-weight:500}
+.inventory-reference>.inventory-empty,.inventory-reference #inventory-results>.inventory-empty{padding:13px 16px 13px 31px}
+
+/* Approved picture-book Trip page, with its own four chapter palettes. */
+body.inventory-open:has(.trip-story){--inventory-bg:#EDF2FF;--inventory-ink:#001F7A}
+.inventory-cover{padding:0;max-width:440px}
+.trip-story{--paper:#EDF2FF;--ink:#001F7A;background:var(--paper);color:var(--ink)}
+.trip-story .defs{position:absolute;width:0;height:0;overflow:hidden}
+.trip-story .intro{padding:24px 28px 18px}
+.trip-story .intro .eyebrow{font-size:11px;letter-spacing:.5px;font-weight:400;margin:0 0 12px}
+.inventory-cover .trip-story h1{font-family:'Trip Puff Open',sans-serif;font-size:34px;line-height:1.1;letter-spacing:-.5px;font-weight:700;margin:0 0 15px}
+.inventory-cover .trip-story .trip-explainer{font-size:13px;line-height:1.65;margin:0}
+.trip-story .chapter{--paper:#EDF2FF;--ink:#001F7A;--road:#99B2FF;--lake:#99B2FF;background:var(--paper);color:var(--ink)}
+.trip-story .chapter.yellow{--paper:#FFFCE9;--ink:#695700;--road:#FFEB87}
+.trip-story .chapter.cherry{--paper:#FFEDF0;--ink:#7A0014;--road:#FF99AA}
+.trip-story .chapter.brown{--paper:#EDF2FF;--ink:#001F7A;--road:#99B2FF}
+.trip-story a{color:inherit}.trip-story .chapter-head,.trip-story h2 a{text-decoration:none}
+.trip-story .chapter-head{display:flex;align-items:center;justify-content:space-between;padding:24px 26px 0}
+.trip-story .chapter-number{font-family:'Trip Puff Open',sans-serif;font-size:50px;line-height:1;transform:rotate(-6deg)}
+.trip-story .chapter-date{font-size:11px;letter-spacing:1px}
+.trip-story .scene{display:block;width:100%;height:auto;color:var(--ink);overflow:hidden}
+.trip-story .scene text{fill:currentColor}.trip-story .scene .puff,.trip-story .scene .bubble{font-family:'Trip Puff Open',sans-serif}.trip-story .scene .bubble{fill:var(--paper)}
+.trip-story .copy{padding:4px 28px 31px}
+.inventory-cover .trip-story h2{font-family:'Trip Puff Open',sans-serif;font-size:33px;font-weight:700;line-height:1.1;letter-spacing:0;margin:0 0 14px}
+.inventory-cover .trip-story .copy p{font-size:13px;line-height:1.6;margin:0}
+.trip-story .places{font-size:11px;line-height:1.6;margin-top:12px;display:flex;gap:0 5px;flex-wrap:wrap;align-items:center}
+.trip-story .places a{display:inline-flex;align-items:center;min-height:36px}
+.trip-story .ending{background:#3E2E1C;color:#fff;text-align:center;padding:40px 28px 44px}
+.inventory-cover .trip-story .ending h2{font-size:40px;line-height:1.05;margin:0 0 15px}
+.inventory-cover .trip-story .ending p{font-size:12px;line-height:1.5;margin:0}
+.trip-story .story-landmark{cursor:pointer}.trip-story .story-landmark:focus-visible{outline:2px dashed currentColor;outline-offset:4px}
+:root[data-theme=dark] body.inventory-open:has(.trip-story){--inventory-bg:#020819;--inventory-ink:#fff}
+:root[data-theme=dark] .trip-story,:root[data-theme=dark] .trip-story .chapter{--paper:#020819;--ink:#fff;--road:#274986;--lake:#144FFF}
+:root[data-theme=dark] .trip-story .chapter.yellow{--paper:#141101;--ink:#fff;--road:#695700}
+:root[data-theme=dark] .trip-story .chapter.cherry{--paper:#190206;--ink:#fff;--road:#7A0014}
+:root[data-theme=dark] .trip-story .chapter.brown{--paper:#020819;--ink:#fff;--road:#274986;--lake:#144FFF}
+
+/* Saved originals use the browser PDF renderer, with a native full-screen option. */
+.booking-document{padding:20px 16px}.booking-document h1{font-size:21px;font-weight:400;margin:16px 0}.pdf-actions{margin:12px 0;font-size:12px}.booking-pdf{display:block;width:100%;border:0}.booking-pdf canvas{display:block;width:100%;height:auto;background:white;margin:0 0 12px}.booking-pdf p{font-size:12px}
+
+/* Departure morning: original confirmation and a simple three-stop plan. */
+.flight-summary>a.departure-button,.departure-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:16px;padding:12px 18px;border-radius:5px;background:var(--c4);color:var(--t4);font-size:12px;font-weight:500;text-decoration:none;border:1px solid color-mix(in srgb,currentColor 20%,transparent)}
+.departure-stop .stop-row{padding-bottom:22px;padding-top:18px}
+.departure-stop .stop-row:before{top:23px}
+:root[data-theme=dark] .departure-button{background:var(--c4);color:#fff}
+
+/* Keep booking navigation at the viewport bottom, within the phone column. */
+.phone-app{padding-bottom:calc(64px + env(safe-area-inset-bottom));max-width:var(--shell-width)}
+#app-footer{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:var(--shell-width);z-index:500;min-height:calc(64px + env(safe-area-inset-bottom));padding-bottom:calc(10px + env(safe-area-inset-bottom))}
+.inventory-open .phone-app,.phone-app.map-expanded{padding-bottom:env(safe-area-inset-bottom)}
+.notice{bottom:calc(82px + env(safe-area-inset-bottom))}
+
+.taxi-time{margin-top:16px}.taxi-time strong{font-size:40px}
+.departure-stop .pickup-note{font-size:11px;line-height:1.55;margin-top:10px;opacity:.8}
+.departure-goodbye{padding:24px 20px 28px;background:var(--c1);color:var(--t1);text-align:center}
+.departure-goodbye h2{font-family:'Trip Puff Open',sans-serif;font-size:29px;font-weight:700;line-height:1.3}
+.departure-goodbye p{font-size:12px;margin-top:10px}
+
+/* Original animated travel doodle, confined to Sunday's brown farewell. */
+.animated-goodbye{--toon-ink:var(--c0);--toon-paper:var(--c5);--toon-skin:#E4B39D;--toon-hair:#CBA15E;--toon-copper:var(--c4);position:relative;overflow:hidden;padding:24px 12px 22px}
+.animated-goodbye .goodbye-scene{display:block;width:100%;height:auto;max-height:245px;margin:0 auto}
+.animated-goodbye>p{margin-top:0;font-size:12px}
+.goodbye-pause{position:absolute;right:8px;top:8px;width:44px;height:44px;display:grid;place-items:center;cursor:pointer;font-size:17px;opacity:.7}
+.goodbye-pause input{position:absolute;inset:0;width:44px;height:44px;margin:0;opacity:0;cursor:pointer}
+.goodbye-pause:has(input:focus-visible){outline:2px solid currentColor;outline-offset:-5px;border-radius:8px}
+.goodbye-pause .play-symbol{display:none}.goodbye-pause:has(input:checked) .pause-symbol{display:none}.goodbye-pause:has(input:checked) .play-symbol{display:inline}
+.goodbye-traveller{transform-origin:215px 120px;animation:goodbye-journey 7s linear infinite;will-change:transform}
+.toon-upper{animation:goodbye-bounce 1s ease-in-out infinite}
+.toon-wave{transform-origin:196px 114px;animation:goodbye-wave 1.8s ease-in-out infinite}
+.toon-leg{transform-origin:215px 165px;animation:goodbye-step 1s ease-in-out infinite}
+.toon-leg-front{animation-delay:-.5s}
+.toon-case{transform-origin:277px 205px;animation:goodbye-roll 1s ease-in-out infinite}
+.toon-eyes{transform-origin:215px 75px;animation:goodbye-blink 4.7s infinite}
+.goodbye-city{animation:none}
+.goodbye-clouds{animation:goodbye-drift 6s ease-in-out infinite alternate}
+.goodbye-sparkles{animation:goodbye-spark 1.8s ease-in-out infinite}
+.animated-goodbye:has(input:checked) svg *{animation-play-state:paused!important}
+@keyframes goodbye-journey{0%{transform:translate(-330px,60px) rotate(65deg) scale(.72);opacity:0}8%{opacity:1}35%{transform:translate(-125px,-25px) rotate(78deg) scale(.72)}60%{transform:translate(20px,-46px) rotate(62deg) scale(.72)}90%{opacity:1}100%{transform:translate(310px,-90px) rotate(78deg) scale(.72);opacity:0}}
+@keyframes goodbye-bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+@keyframes goodbye-wave{0%,100%{transform:rotate(-8deg)}30%{transform:rotate(9deg)}60%{transform:rotate(-10deg)}80%{transform:rotate(6deg)}}
+@keyframes goodbye-step{0%,100%{transform:rotate(-5deg)}50%{transform:rotate(12deg)}}
+@keyframes goodbye-roll{0%,100%{transform:rotate(-4deg)}50%{transform:translateY(-2px) rotate(1deg)}}
+@keyframes goodbye-blink{0%,42%,46%,100%{transform:scaleY(1)}44%{transform:scaleY(.12)}}
+@keyframes goodbye-drift{from{transform:translateX(-5px)}to{transform:translateX(9px)}}
+@keyframes goodbye-spark{0%,100%{opacity:.3}50%{opacity:1}}
+@media(prefers-reduced-motion:reduce){.animated-goodbye svg *{animation:none!important}.goodbye-pause{display:none}}
+.animated-goodbye .goodbye-scene{width:calc(100% + 24px);max-height:none;margin:0 -12px 12px}
+@media(prefers-reduced-motion:reduce){.goodbye-traveller{transform:translate(-30px,-25px) rotate(65deg) scale(.72);opacity:1}}
+
+/* Theme control shares the Inventory grid. */
+.inventory-menu #theme{--icon-paper:var(--inventory-bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;padding:24px 8px;border:0;text-align:center;color:var(--t0);background:transparent;font-size:12px;line-height:normal}
+
+/* Explicit surface roles for the approved banana palette; other days retain their defaults. */
+.days a[aria-current]{background:var(--selected-day-bg,var(--c1))}
+.view-switch:not(.is-stuck){background:var(--view-bg,var(--c5))}
+:root[data-theme=dark] .view-switch:not(.is-stuck){background:var(--view-bg,color-mix(in srgb,var(--c1) 82%,var(--c4)))}
+.timeline-stop[data-type=coffee],.timeline-stop[data-type=food],.timeline-stop[data-type=hotels],.timeline-stop[data-type=flight]{--stop-bg:var(--meal-bg,color-mix(in srgb,var(--row-base) 91%,var(--c3)))}
+
+/* Shared page motion: only the content arrives; the masthead never moves.
+   Values are also read by the Web Animations lifecycle in itinerary.mjs. */
+:root{--motion-page:420ms;--motion-disclosure:280ms;--motion-story:520ms;--motion-greeting:500ms;--motion-settle:cubic-bezier(.2,.75,.25,1)}
+.motion-ready :is(.appbar,.days,.days>a,.view-switch,.phone-app,#app-footer){transition:background-color var(--motion-page) ease,color var(--motion-page) ease}
+@media(prefers-reduced-motion:reduce){
+  .motion-ready :is(.appbar,.days,.days>a,.view-switch,.phone-app,#app-footer){transition:none}
+}
+
+/* The wordmark is in the initial HTML and is never remounted by renderShell.
+   Its greeting starts with first paint, independently of trip-data loading. */
+.fresh-wordmark{animation:wordmark-hello var(--motion-greeting) var(--motion-settle) both}
+@keyframes wordmark-hello{0%{opacity:.25;transform:translateY(3px) scale(.98)}70%{opacity:1;transform:translateY(-.5px) scale(1.003)}100%{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.fresh-wordmark{animation:none}}
+
+/* Height clipping is temporary; closed disclosures remain native and searchable. */
+:is(.meal-options,.reference-entry,.sources).disclosure-moving{overflow:hidden;overflow:clip}
+
+/* Day and Map pass each other beneath the fixed-in-place navigation. Clip only
+   during the swap so sticky/fixed content keeps its normal behavior afterward. */
+:root{--motion-switch:300ms}
+.view-stage{position:relative}
+.view-stage.is-switching{overflow:clip;isolation:isolate}
+.view-stage>.view-outgoing[hidden]{display:block!important;position:absolute;left:0;width:100%;z-index:1;pointer-events:none}
+.view-stage>.view-incoming{position:relative;z-index:2}
+#view-switch a[aria-current]{border-bottom-color:transparent}
+#view-switch::after{content:'';position:absolute;left:0;bottom:0;width:50%;height:2px;background:currentColor;pointer-events:none;transform:translateX(0)}
+#view-switch[data-active-view=map]::after{transform:translateX(100%)}
+.motion-ready #view-switch::after{transition:transform var(--motion-switch) var(--motion-settle)}
+@media(prefers-reduced-motion:reduce){.motion-ready #view-switch::after{transition:none}}
+
+/* Option 4: punched ticket button, centered double-ticket icon. */
+.row-actions>.booking-link,.booking-wallet .record .open{position:relative;clip-path:none;border-radius:5px;min-height:44px;padding:8px 16px;background:var(--ticket-button,var(--c0))!important;color:#fff!important;border:0;display:flex;align-items:center;justify-content:center;text-decoration:none;mask:radial-gradient(circle 5px at 0 50%,transparent 98%,#000) 0 0/51% 100% no-repeat,radial-gradient(circle 5px at 100% 50%,transparent 98%,#000) 100% 0/51% 100% no-repeat}
+.row-actions>.booking-link::after,.booking-wallet .record .open::after{content:'';position:absolute;right:21%;top:5px;bottom:5px;border-left:1px dashed #ffffff70;pointer-events:none}
+.row-actions .ticket-icon,.booking-wallet .record .open .ticket-icon{display:block;width:32px;height:26px;flex:none;margin:0;transform:none}
+
+.timeline .final-flight-step .row-actions{display:flex}
+.timeline .final-flight-step .booking-link{width:100%;flex:1}
+
+/* Match the quiet navigation outline rather than bright white. */
+.row-actions>.booking-link,.booking-wallet .record .open{box-shadow:inset 0 0 0 1px rgb(255 255 255 / 15%)}
+.row-actions>.booking-link::before,.booking-wallet .record .open::before{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:radial-gradient(circle at 0 50%,transparent 4px,rgb(255 255 255 / 15%) 4px,rgb(255 255 255 / 15%) 6px,transparent 6px) left center/8px 100% no-repeat,radial-gradient(circle at 100% 50%,transparent 4px,rgb(255 255 255 / 15%) 4px,rgb(255 255 255 / 15%) 6px,transparent 6px) right center/8px 100% no-repeat}
+
+/* Final flight keeps the centred icon; label occupies only its right side. */
+.timeline .final-flight-step .row-actions{padding-bottom:32px}
+.final-flight-step .flight-ticket-label{position:absolute;left:calc(50% + 23px);top:50%;transform:translateY(-50%);display:flex;align-items:center;gap:5px;font-size:11px;line-height:1;white-space:nowrap}
+.flight-ticket-label svg{width:15px;height:12px;flex:none}
+
+/* The final flight caption uses the same muted tone as other stop captions. */
+.final-flight-step .stop-meta{color:color-mix(in srgb,var(--t5) 70%,var(--stop-bg))}
+.cinema-goodbye{position:relative;overflow:hidden;padding:0;background:var(--c1);color:#fff;isolation:isolate}
+.takeoff-scene{display:block;width:100%;height:auto;overflow:hidden}
+.cinema-goodbye .goodbye-pause{z-index:5;color:#fff}
+.cinema-end{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;pointer-events:none;opacity:0;animation:cinema-title 24s linear infinite}
+.cinema-end h2{margin:0;font-size:34px;color:#fff}.cinema-end p{margin:12px 0 0;font-size:14px;color:#fff}
+.plane-flight{transform:translate(150px,231px);animation:plane-takeoff 24s linear infinite;transform-origin:0 0}
+.plane-wheels{animation:gear-up 24s linear infinite;transform-origin:0 20px}
+.takeoff-ground{animation:ground-drop 24s linear infinite}
+.city-pan{animation:city-speed 24s linear infinite}.city-smear{animation:city-smear-speed 24s linear infinite}
+.runway-lines{animation:runway-speed 24s linear infinite}
+.takeoff-clouds{animation:sky-travel 24s linear infinite}.foreground-clouds{animation:near-clouds 24s linear infinite;opacity:0}
+.swirl-wipe{transform-origin:220px 170px;animation:swirl-reset 24s linear infinite;opacity:0}
+@keyframes plane-takeoff{0%,8%{transform:translate(135px,231px);opacity:1;animation-timing-function:cubic-bezier(.55,0,1,.7)}34%{transform:translate(185px,231px);opacity:1;animation-timing-function:cubic-bezier(.3,0,.2,1)}48%{transform:translate(203px,158px) rotate(-12deg)}58%{transform:translate(210px,123px) rotate(-3deg)}64%{transform:translate(215px,120px);opacity:1;animation-timing-function:cubic-bezier(.7,0,1,1)}70%{transform:translate(650px,110px);opacity:1}71%,100%{transform:translate(650px,110px);opacity:0}}
+@keyframes city-speed{0%,8%{transform:translateX(0);opacity:.65;animation-timing-function:cubic-bezier(.6,0,1,1)}20%{transform:translateX(-12px);opacity:.65;animation-timing-function:cubic-bezier(.6,0,1,1)}34%{transform:translateX(-145px);opacity:.35}46%,100%{transform:translateX(-440px);opacity:0}}
+@keyframes city-smear-speed{0%,20%{transform:translateX(-12px);opacity:0;animation-timing-function:cubic-bezier(.6,0,1,1)}34%{transform:translateX(-145px);opacity:.5}46%{transform:translateX(-440px);opacity:.5}53%,100%{transform:translateX(-550px);opacity:0}}
+@keyframes runway-speed{0%,8%{transform:translateX(0);animation-timing-function:cubic-bezier(.65,0,1,1)}34%{transform:translateX(-450px)}48%,100%{transform:translateX(-1000px)}}
+@keyframes ground-drop{0%,34%{transform:translateY(0);animation-timing-function:cubic-bezier(.45,0,.6,1)}48%{transform:translateY(80px)}56%,100%{transform:translateY(250px)}}
+@keyframes gear-up{0%,39%{transform:scaleY(1);opacity:1}46%,100%{transform:scaleY(0);opacity:0}}
+@keyframes sky-travel{0%,34%{transform:translate(0,0);opacity:.65}50%{transform:translate(-65px,48px);opacity:1}65%{transform:translate(-155px,66px);opacity:1}76%,100%{transform:translate(-240px,70px);opacity:.22}}
+@keyframes near-clouds{0%,43%{transform:translate(80px,50px);opacity:0}52%{transform:translate(0,0);opacity:.85}66%{transform:translate(-180px,-15px);opacity:.85}76%,100%{transform:translate(-360px,-30px);opacity:0}}
+@keyframes cinema-title{0%,72%{opacity:0;transform:translateY(5px)}78%,91%{opacity:1;transform:translateY(0)}96%,100%{opacity:0;transform:translateY(0)}}
+@keyframes swirl-reset{0%,91%{opacity:0;transform:rotate(-90deg) scale(.02)}92%{opacity:1;transform:rotate(-90deg) scale(.02);animation-timing-function:ease-in-out}99%,100%{opacity:1;transform:rotate(240deg) scale(4)}}
+.cinema-goodbye:has(input:checked) *{animation-play-state:paused!important}
+@media(prefers-reduced-motion:reduce){.cinema-goodbye *{animation:none!important}.cinema-goodbye .plane-flight{transform:translate(220px,110px)}.cinema-goodbye .takeoff-ground,.cinema-goodbye .foreground-clouds,.cinema-goodbye .swirl-wipe,.cinema-goodbye .plane-wheels{display:none}.cinema-goodbye .cinema-end{opacity:1;padding-top:170px}.cinema-goodbye .goodbye-pause{display:none}}
+
+.cinema-goodbye *{animation-play-state:paused!important}
+.cinema-goodbye.is-inview:not(:has(input:checked)) *{animation-play-state:running!important}
+.cinema-end .cinema-dedication{position:absolute;bottom:24px;left:16px;right:16px;font-family:'Trip Puff Open',sans-serif;font-size:12px;line-height:1.6;margin:0;color:#fff}
+.cinema-end h2{font-size:30px}
+
+/* Labels flank the fixed, centred ticket icon with equal breathing room. */
+.final-flight-step .flight-ticket-label{left:auto;right:calc(50% + 28px);display:block}
+.final-flight-step .flight-ticket-arrow{position:absolute;left:calc(50% + 28px);top:50%;transform:translateY(-50%);display:flex;align-items:center}
+.flight-ticket-arrow svg{display:block;width:19px;height:14px}
+.plane-beacon{animation:plane-beacon 1.6s steps(1,end) infinite}
+@keyframes plane-beacon{0%,18%,100%{visibility:visible}19%,99%{visibility:hidden}}
+.ground-crew{animation:crew-depart 24s linear infinite;transform-origin:350px 267px}
+@keyframes crew-depart{0%,17%{transform:translate(350px,267px);visibility:visible}18%,100%{transform:translate(350px,267px);visibility:hidden}}
+.crew-go{animation:crew-go 24s steps(1,end) infinite}
+@keyframes crew-go{0%,6%{visibility:hidden}7%,30%{visibility:visible}31%,100%{visibility:hidden}}
+.swirl-cover{transform-origin:220px 170px;animation:swirl-cover 24s linear infinite;transform:scale(0)}
+@keyframes swirl-cover{0%,95%{transform:scale(0)}99%,100%{transform:scale(550)}}
+@media(prefers-reduced-motion:reduce){.cinema-goodbye .swirl-cover,.cinema-goodbye .ground-crew{display:none}}
+
+.final-flight-step .flight-ticket-arrow svg{width:28px;height:20px}
+
+/* Stop purpose is independent of optionality and of the venue's category. */
+.timeline-stop[data-purpose=sightseeing]{--stop-bg:var(--c5);color:var(--t5)}
+.timeline-stop[data-purpose=meal],.timeline-stop[data-purpose=practical]{--stop-bg:var(--meal-bg);color:var(--t2)}
+.timeline-stop[data-optional=true] .stop-copy,.transfer-heading,.transfer .rail-leg,.transfer .rail-transfer,.final-flight-step .stop-meta{color:inherit}
+#main[data-purpose=sightseeing] :is(.stop-context,.fact-section){background:var(--c5);color:var(--t5)}
+#main[data-purpose=meal] :is(.stop-context,.fact-section),#main[data-purpose=practical] :is(.stop-context,.fact-section){background:var(--meal-bg);color:var(--t2)}
+/* Date changes are atomic: interpolating colours makes unapproved intermediate shades. */
+.motion-ready :is(.appbar,.days,.days>a,.view-switch,.phone-app,#app-footer){transition:none}
+.timeline-stop,.meal-options,.meal-choice{border-color:var(--c2)}
+/* Tonal markers: mid-palette colour, independent of the event fills. */
+.timeline{--timeline-ink:var(--c3)}
+:root[data-theme=dark] .timeline{--timeline-ink:var(--c4)}
+:root[data-reference-palette="10"] .timeline{--timeline-ink:var(--day-deep)}
+.timeline-stop:before,.timeline .stop-row:before,:root[data-theme=dark] .timeline .stop-row:before{background:var(--timeline-ink)}
+.timeline-stop .stop-copy,.timeline-stop .stop-meta,.timeline-stop .transfer,.meal-choice small{opacity:1}
+.timeline{--action-ticket-bg:var(--c0);--action-ticket-ink:var(--t0)}
+
+:root[data-theme=dark] .timeline{--action-ticket-bg:var(--c4);--action-ticket-ink:var(--t4)}
+.timeline .row-actions>.booking-link{background:var(--action-ticket-bg)!important;color:var(--action-ticket-ink)!important}
+
+.trip-story{--paper:var(--c5);--ink:var(--t5)}
+.trip-story .chapter.yellow{--paper:#FFF8D7;--ink:#000000;--road:#FFE039;--lake:#FFE039}
+:root[data-theme=dark] .trip-story .chapter.yellow{--paper:#0B0801;--ink:#ffffff;--road:#3D2A08;--lake:#3D2A08}
+.trip-story .ending{background:var(--c0);color:var(--t0)}
+.place-meal-note{padding:12px 16px;background:var(--c5);color:var(--t5);font-size:12px}
+
+/* User-approved exception: restore original 15% neutral action edges only.
+   Border ink is independent of the day-coloured ticket fill. */
+.timeline .row-actions>a,.timeline .row-actions>button{--action-edge:color-mix(in srgb,currentColor 15%,transparent);border:1px solid var(--action-edge);box-shadow:none;opacity:1}
+.timeline .row-actions>a:hover,.timeline .row-actions>button:hover{opacity:1}
+.timeline .row-actions>.booking-link{border:0;box-shadow:inset 0 0 0 1px var(--action-edge)}
+.timeline .row-actions>.booking-link::after{border-left-color:var(--action-edge)}
+.timeline .row-actions>.booking-link::before{background:radial-gradient(circle at 0 50%,transparent 4px,var(--action-edge) 4px,var(--action-edge) 6px,transparent 6px) left center/8px 100% no-repeat,radial-gradient(circle at 100% 50%,transparent 4px,var(--action-edge) 4px,var(--action-edge) 6px,transparent 6px) right center/8px 100% no-repeat}
+
+/* Explicitly approved pale fills for quieter light-mode event separation. */
+:root[data-theme=light][data-reference-palette="14"] .timeline-stop:is([data-purpose=meal],[data-purpose=practical]){--stop-bg:#FFD6DE;color:var(--t2)}
+:root[data-theme=light][data-reference-palette="01"] .timeline-stop:is([data-purpose=meal],[data-purpose=practical]){--stop-bg:#D6E0FF;color:var(--t2)}
+
+/* Explicitly approved dark Cherry intermediate for quiet event separation. */
+:root[data-theme=dark][data-reference-palette="14"] .timeline-stop:is([data-purpose=meal],[data-purpose=practical]){--stop-bg:#2B030A;color:var(--t2)}
+
+/* Approved B: dark dates, midtone navigation, brighter day banner.
+   Preserve this hierarchy in both sticky navigation states. */
+:root[data-theme=dark] .view-switch:is(.is-stuck,:not(.is-stuck)){background:var(--c1);color:var(--t1)}
+:root[data-theme=dark]:is([data-reference-palette="10"],[data-reference-palette="bottle"]) .view-switch:is(.is-stuck,:not(.is-stuck)){background:var(--c3);color:var(--t3)}
+:root[data-theme=dark] .day-head{background:var(--c4);color:var(--t4)}
+:root[data-theme=dark][data-reference-palette="10"] .day-head{background:var(--day-deep);color:var(--t0)}
+:root[data-theme=dark][data-reference-palette="10"] .timeline-stop:is([data-purpose=meal],[data-purpose=practical]){--stop-bg:var(--c1);color:var(--t1)}
+
+/* Approved monochrome Bottle Green for Thursday; the dated story chapters stay independent. */
+:root[data-reference-palette=bottle] .trip-story{--paper:var(--c5);--ink:var(--t5)}
+
+/* Dated Trip chapters use their own approved palette, independent of selected day. */
+.trip-story .chapter.bottle{--paper:#E5EDE7;--ink:#00452C;--road:#80A78F;--lake:#80A78F}
+:root[data-theme=dark] .trip-story .chapter.bottle{--paper:#07130E;--ink:#ffffff;--road:#1C4933;--lake:#1C4933}
+.trip-story .copy .colour-note{font-size:12px;line-height:1.5;margin-top:14px}
+:root[data-theme=dark] .trip-story .chapter.blue{--paper:#020819;--ink:#ffffff;--road:#071C59;--lake:#144FFF}
+
+/* Consistent black Trip text in light mode; artwork keeps its chapter ink. */
+:root:not([data-theme=dark]) .trip-story :is(.intro,.chapter-head,.copy,.ending){color:#000000}
+:root:not([data-theme=dark]) .trip-story .scene text{fill:#000000}
+:root:not([data-theme=dark]) .trip-story .scene g:has(>text.bubble)>:is(rect,path){fill:var(--paper)}
+:root:not([data-theme=dark]) .trip-story .ending{background:var(--c5);color:#000000}
+
+/* Approved itinerary scale: 10px supporting, 12px body, 18px headings,
+   25px date navigation. The decorative Chicago wordmark stays independent. */
+.days a{font-size:25px}
+.day-head .day-date,.timeline .stop-copy :is(h2,h3),.timeline .meal-choice strong,.timeline .meal-pending strong{font-size:18px}
+.day-head>.day-story,.timeline .stop-copy>p,.timeline .stop-copy>.stop-meta,.timeline .meal-choice span span,.timeline .meal-pending p,.day-caution,.day-notes{font-size:12px}
+.timeline-stop>.transfer,.timeline .transfer :is(.rail-leg,.rail-transfer),.timeline .visit-label,.timeline .transfer-heading .visit-label,.timeline .stop-copy .access-note,.timeline .row-actions>a,.timeline .row-actions>button,.timeline .meal-options summary,.timeline .meal-choice small,.timeline .meal-detail,.timeline .fine,.timeline .optional,.timeline .pending-number,.timeline .stop-number,.final-flight-step .flight-ticket-label,.day-head .eyebrow,.day-head .access-note,.save-note,#app-footer{font-size:10px}
+.departure-goodbye h2,.cinema-end h2{font-size:18px}
+.departure-goodbye p,.cinema-end p{font-size:12px}
+
+/* Compact food-box design proposal; exact day palette roles only. */
+.timeline-stop:has(>.meal-options){padding-bottom:16px;display:flow-root}
+.timeline-stop .meal-options{margin:4px 16px 0;padding:0 12px;border:1px solid var(--c3);border-radius:8px;background:var(--c5);color:var(--t5);overflow:hidden}
+.timeline-stop .meal-options[open]{padding-bottom:4px}
+.timeline-stop .meal-options>summary{min-height:44px;padding:8px 0;font-size:12px;text-decoration:none}
+.timeline-stop .meal-choice{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:4px 8px;padding:7px 0;border:0;border-top:1px solid var(--c3);cursor:default}
+.timeline-stop .meal-choice strong{font-size:12px!important;line-height:1.35;font-weight:400}
+.timeline-stop .meal-choice p{font-size:10px;margin:3px 0 0;line-height:1.4}
+.food-line{display:flex;gap:6px;align-items:baseline;justify-content:space-between}
+.food-rating{font-size:10px;white-space:nowrap}
+.food-budget{font-size:10px;background:var(--c2);color:var(--t2);padding:2px 4px;border-radius:3px}
+.timeline .meal-options .row-actions{padding:0;margin:0;gap:4px}
+.timeline .meal-options .food-choice-actions{display:flex}
+.timeline .meal-options .food-choice-actions>a,.timeline .meal-options .food-choice-actions>button{width:44px;min-width:44px;flex:none;padding:0;justify-content:center;color:inherit}
+.timeline .meal-options .food-map-action{display:block;padding:0 0 8px}
+.timeline .meal-options .food-map-action>a{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;font-family:inherit;background:var(--c2);color:var(--t2);font-size:10px}
+.food-expanded-copy{grid-column:1/-1;padding:5px 0 7px}
+.food-map-preview-note{font-size:10px;line-height:1.5;margin:8px 0}
+
+.food-line{justify-content:flex-start;flex-wrap:wrap;gap:3px 6px}.food-meta,.food-meta .food-rating{font-size:10px;font-weight:400}.food-budget{white-space:nowrap}
+
+/* Match the full action-row span and its outlined button treatment. */
+.timeline-stop .meal-options{margin:9px 16px 0 31px;padding:0;border:0;border-radius:5px;background:var(--stop-bg);color:inherit}
+.timeline-stop .meal-options>summary{padding:8px 12px;border:1px solid color-mix(in srgb,currentColor 15%,transparent);border-radius:5px;font-size:10px;background:var(--stop-bg);color:inherit}
+.timeline-stop .meal-options[open]{padding:0 12px 4px}
+.timeline-stop .meal-options[open]>summary{margin:0 -12px 8px}
+.timeline .meal-options .food-map-action>a{background:var(--stop-bg);color:inherit}
+
+.timeline-stop .meal-options[open]{background:var(--c5);color:var(--t5)}
+
+.timeline-stop .meal-options>summary{justify-content:center}
+
+/* Safari samples the body and real fixed elements for its browser tint. */
+@media(max-width:600px){
+  :root,:root[data-theme=dark]{background:var(--c0)}
+  body,body.inventory-open,body.inventory-open.reference-open,body.inventory-open:has(.trip-story),body:has(.map-expanded){background:var(--c0)!important}
+  .safari-header-tint{position:fixed;top:0;left:0;right:0;height:max(1px,env(safe-area-inset-top,0px));background:var(--c0);pointer-events:none;z-index:1000}
+}

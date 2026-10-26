@@ -1,0 +1,39 @@
+/* The Journal inherits the selected day's shared masthead and pale writing surface. */
+body.inventory-open.journal-open{--c5:inherit;--t5:inherit;--inventory-bg:var(--c5);--inventory-ink:var(--c0);--journal-paper:var(--c5);--journal-ink:var(--c0);--journal-bird:var(--c3);--journal-wing:var(--c1);--journal-accent:var(--c4);--journal-button-ink:var(--t4)}
+:root[data-theme=dark] body.inventory-open.journal-open{--inventory-bg:var(--c0);--inventory-ink:#fff;--journal-paper:var(--c0);--journal-ink:#fff;--journal-bird:var(--c4);--journal-wing:var(--c1)}
+.journal-open .phone-app{display:flex;flex-direction:column;height:100vh;height:100dvh;min-height:300px;padding-bottom:0;background:var(--journal-paper)}
+.journal-open .appbar{flex:none}.journal-open .view-stage{display:flex;flex:1;min-height:0;flex-direction:column}.journal-open #main{display:flex;flex:1;min-height:0;flex-direction:column}
+.inventory-surface.inventory-journal{padding:0;flex:1;height:100%;min-height:0;max-width:none;background:var(--journal-paper);color:var(--journal-ink)}
+.journal-workspace{height:100%;position:relative;overflow:hidden;isolation:isolate}
+.inventory-journal #journal-form{height:100%;padding:20px 27px calc(24px + env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:18px}
+.journal-writing{flex:1;min-height:0;background:repeating-linear-gradient(transparent 0 34px,color-mix(in srgb,var(--journal-ink) 7%,transparent) 34px 35px)}
+.inventory-journal #journal-text{background:transparent;color:var(--journal-ink);caret-color:var(--journal-accent);font-family:inherit;font-size:20px;line-height:35px;border:0;border-radius:0;resize:none;width:100%;height:100%;min-height:0;padding:0;display:block;outline:none}
+.inventory-journal .journal-send{align-self:flex-end;flex:none;background:var(--journal-accent);color:var(--journal-button-ink);border:0;border-radius:12px;padding:12px 25px;min-height:48px;font-size:13px;line-height:1.5}
+.inventory-journal #journal-status{position:absolute;bottom:calc(85px + env(safe-area-inset-bottom));left:27px;right:27px;padding:12px;background:var(--journal-paper);border:1px solid currentColor;z-index:5;margin:0;font-size:12px}
+.journal-workspace.flying textarea{opacity:0;pointer-events:none}
+.journal-animation{position:absolute;inset:0;pointer-events:none;overflow:hidden;z-index:3;visibility:hidden}.flying .journal-animation{visibility:visible}
+.journal-animation .traveller{position:absolute;left:var(--pickup-x);top:var(--pickup-y);width:310px;height:280px;margin:-140px 0 0 -155px;opacity:0}.journal-animation .traveller>svg{display:block;width:100%;height:100%;overflow:visible}
+.journal-animation .flap{transform-box:fill-box;transform-origin:85% 85%}.journal-animation .eye,.journal-animation .beak{fill:var(--journal-ink)}.journal-animation .body-fill{fill:var(--journal-bird)}.journal-animation .wing-fill{fill:var(--journal-wing)}.journal-animation .tail{fill:var(--journal-accent)}.journal-animation .note{fill:var(--journal-paper);stroke:var(--journal-ink);stroke-width:3}.journal-animation .note-line{display:none}.journal-animation .speed{fill:none;stroke:var(--journal-wing);stroke-width:7;stroke-linecap:round;opacity:0}
+.flying .journal-animation .traveller{animation:journal-courier-flight 1850ms ease-in-out both}.flying .journal-animation .flap{animation:journal-flap 180ms ease-in-out infinite alternate}.flying .journal-animation .speed{animation:journal-speed 1850ms ease-out both}.flying .journal-animation .bundle{animation:journal-bundle 300ms ease-in-out infinite alternate,journal-pickup 1850ms linear both;transform-origin:center top}
+@keyframes journal-courier-flight{0%{opacity:0;transform:translate(220px,80px) scale(.13) rotate(-15deg)}14%{opacity:1;transform:translate(60px,8px) scale(.21) rotate(-8deg)}27%{opacity:1;transform:translate(0,0) scale(.24) rotate(4deg)}43%{opacity:1;transform:translate(0,7px) scale(.27) rotate(9deg)}72%{opacity:1;transform:translate(var(--grow-x),var(--grow-y)) scale(2.15) rotate(-13deg)}80%{opacity:1;transform:translate(var(--grow-x),var(--grow-y)) scale(2.28) rotate(-18deg)}100%{opacity:1;transform:translate(650px,-850px) scale(1.9) rotate(-32deg)}}
+@keyframes journal-flap{from{transform:rotate(-40deg) scaleY(.58)}to{transform:rotate(25deg) scaleY(1.1)}}@keyframes journal-speed{0%,40%{opacity:0}58%{opacity:.75}85%,100%{opacity:0}}@keyframes journal-pickup{0%,41%{opacity:0}42%,100%{opacity:1}}@keyframes journal-bundle{from{transform:rotate(-9deg)}to{transform:rotate(13deg)}}
+.journal-animation .lifted-text{display:none;position:absolute;overflow:hidden;white-space:pre-wrap;overflow-wrap:break-word;font-family:inherit;font-size:20px;line-height:35px;transform-origin:0 0;color:var(--journal-ink)}.flying .journal-animation .lifted-text{display:block;animation:journal-collect-text 1850ms ease-in-out both}.journal-animation .parcel-words{font:4px/1.2 'FOS Editorial Grotesk Recon',Arial,sans-serif;color:var(--journal-ink);white-space:pre-wrap;overflow:hidden;height:30px;width:54px}
+@keyframes journal-collect-text{0%,26%{opacity:1;transform:translate(0,0) scale(1)}41%{opacity:1;transform:translate(var(--text-dx),var(--text-dy)) scale(.035)}43%,100%{opacity:0;transform:translate(var(--text-dx),var(--text-dy)) scale(.025)}}
+.inventory-journal #journal-story{height:100%;overflow-y:auto;padding:24px 27px calc(24px + env(safe-area-inset-bottom))}.inventory-journal #journal-story:has(.journal-connection){position:absolute;inset:0 0 auto;height:auto;background:var(--journal-paper);padding:12px 27px;font-size:12px}
+.inventory-journal #journal-story h2{font-size:21px;font-weight:400;line-height:1.3;margin:20px 0}.journal-reflection{padding:18px 0;border-bottom:1px solid color-mix(in srgb,currentColor 15%,transparent)}.journal-reflection time,.journal-location{font-size:12px;line-height:1.5}.inventory-journal .journal-reflection p{font-size:18px;line-height:1.6;white-space:pre-wrap;overflow-wrap:anywhere;margin:16px 0}.journal-location{margin:12px 0}.journal-images:empty{display:none}.journal-more{min-height:44px;margin-top:20px;text-decoration:underline}
+@media(prefers-reduced-motion:reduce){.flying .journal-animation .traveller{left:50%;top:44%;animation:journal-gentle 650ms ease-in-out both}.flying .journal-animation .flap,.flying .journal-animation .bundle,.flying .journal-animation .speed{animation:none}.flying .journal-animation .lifted-text{display:none}@keyframes journal-gentle{0%,100%{opacity:0;transform:scale(.8)}25%,70%{opacity:1;transform:scale(.8)}}}
+
+.inventory-journal #journal-text::placeholder{color:var(--journal-ink);opacity:.45}
+
+/* The journal fills the viewport, with no outer frame or width cap. */
+body.inventory-open.journal-open .phone-app{width:100%;max-width:none;margin:0;border:0}
+.inventory-journal #journal-form{padding:16px 16px calc(20px + env(safe-area-inset-bottom))}
+.inventory-journal .journal-writing{border:0;border-radius:0;padding:0}
+
+/* Override inventory auto margins so the flex child stretches across the page. */
+.inventory-surface.inventory-journal{width:100%;margin:0;align-self:stretch}
+
+/* Recovery choices appear only when another unsent entry exists. */
+.inventory-journal #journal-drafts:empty{display:none}
+.inventory-journal #journal-drafts{flex:none;font-size:12px}
+.inventory-journal #journal-draft-choice{display:block;width:100%;min-height:44px;font:inherit;background:var(--journal-paper);color:var(--journal-ink);border:1px solid var(--journal-ink);border-radius:0}

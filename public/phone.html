@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>My Chicago Itinerary</title><meta name="description" content="Explore three days in Chicago through a personal trip app. Public demo; private travel details removed."><style>
+:root{--paper:#ffffff;--ink:#000000;--edge:#FF99AA;--device:#190206;--screen:#ffffff}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,sans-serif}.stage{min-height:100svh;display:flex;align-items:center;justify-content:center;gap:72px;padding:28px}.intro{max-width:280px}h1{font-size:48px;letter-spacing:-2px;line-height:1;margin:0 0 20px}p{font-size:16px;line-height:1.6}a{color:inherit;text-underline-offset:4px}.eyebrow{font-size:11px;letter-spacing:2px;text-transform:uppercase;margin-bottom:22px}.phone{position:relative;width:382px;height:min(830px,calc(100svh - 56px));min-height:520px;border:3px solid #7A0014;border-radius:54px;background:var(--device);padding:10px;flex-shrink:0}.screen{height:100%;overflow:hidden;border-radius:41px;background:var(--screen);display:flex;flex-direction:column}.status{height:42px;flex-shrink:0;background:var(--device);color:var(--screen);display:flex;justify-content:space-between;align-items:center;padding:0 25px;font-size:12px}.island{position:absolute;top:18px;left:50%;transform:translateX(-50%);height:24px;width:92px;border-radius:20px;background:var(--device)}iframe{border:0;width:100%;flex:1;min-height:0;background:var(--paper)}.bottom{height:20px;flex-shrink:0;background:var(--device);display:grid;place-items:center}.bottom:after{content:"";width:110px;height:4px;border-radius:4px;background:var(--screen)}.button{position:absolute;right:-6px;top:180px;width:3px;height:65px;background:#7A0014;border-radius:3px}.note{font-size:12px;margin-top:24px}@media(max-width:760px){.stage{gap:24px}.intro{max-width:180px}h1{font-size:36px}}@media(max-width:600px){.stage{padding:0;display:block}.intro{display:none}.phone{border:0;padding:0;border-radius:0;width:100%;height:100svh;min-height:0}.screen{border-radius:0}.status,.island,.bottom,.button{display:none}}
+
+@font-face{font-family:TripPuff;src:url('./fonts/trip-puff-open.ttf') format('truetype');font-display:swap}
+.stage{gap:64px;padding:40px;align-items:flex-start;max-width:1120px;margin:auto}.intro{max-width:470px;flex:1}h1{font-family:TripPuff,Arial,sans-serif;font-size:46px;font-weight:400;letter-spacing:0;line-height:1.1;margin-bottom:22px}p{font-size:14px;line-height:1.55;margin:0 0 16px}.eyebrow,h2,.resources,.starter summary{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.eyebrow{font-size:10px;letter-spacing:1px;margin-bottom:18px}h2{font-size:12px;font-weight:400;margin:25px 0 12px}.features{padding-left:17px;margin:0;font-size:13px;line-height:1.6}.features li{margin-bottom:5px}.note{font-size:11px;line-height:1.5;margin-top:14px}.resource-copy{font-size:13px;margin-bottom:12px}.resources{display:flex;gap:8px;flex-wrap:wrap}.resources button{font:inherit;font-size:11px;background:#ffffff;color:#000000;border:1px solid #000000;padding:12px;cursor:pointer;min-height:44px}.resources button:disabled{border-style:dashed;cursor:default}.starter{margin-top:16px}.starter summary{font-size:11px;cursor:pointer;padding:8px 0}.starter pre{white-space:pre-wrap;font:12px/1.6 ui-monospace,SFMono-Regular,Consolas,monospace;border:1px solid #000000;padding:14px}.phone{position:sticky;top:28px}
+@media(min-width:601px) and (max-width:900px){.stage{padding:24px;gap:28px}.intro{max-width:none}h1{font-size:34px}}
+@media(max-width:600px){.stage{padding:0;display:flex;flex-direction:column;gap:0}.intro{display:block;max-width:none;padding:28px 24px;order:2}.phone{position:relative;top:auto;order:1}.intro h1{font-size:38px}}
+
+body{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}p{font-size:13px;line-height:1.6}.short-intro{margin-bottom:18px}.colour-notes{list-style:none;padding:0;margin:18px 0 24px;font-size:12px;line-height:1.6}.colour-notes li{margin-bottom:7px}.features{font-size:12px;line-height:1.7}.intro{max-width:470px}.resources button{font-size:10px}.note{font-size:10px}.resource-copy{font-size:12px}
+
+/* Return to the preferred Arial body; retain the custom title and small code labels. */
+body{font-family:Arial,sans-serif}p{font-size:14px;line-height:1.55}.colour-notes{font-family:Arial,sans-serif;font-size:13px;line-height:1.55}.colour-notes li{margin-bottom:10px}.features{font-family:Arial,sans-serif;font-size:13px;line-height:1.6}.note{font-size:11px}.resource-copy{font-size:13px}
+
+.colour-heading{margin-bottom:0}.colour-notes{margin-top:0}.colour-notes li{margin-bottom:0}.resources{margin-top:25px}.resource-button{display:inline-flex;align-items:center;min-height:44px;box-sizing:border-box;padding:12px;border:1px solid #000000;background:#ffffff;color:#000000;font:10px ui-monospace,SFMono-Regular,Consolas,monospace;text-decoration:none}
+
+.status{height:48px;padding:0 22px;font-family:Arial,sans-serif;font-size:14px;font-weight:600;background:#190206}.status-icons{display:flex;gap:5px;align-items:center}.status-icons svg{width:16px;height:13px}.status-icons svg.battery{width:25px}.island{top:19px;width:108px;height:29px;background:#000000;border-radius:18px;pointer-events:none}.status>span:first-child{width:44px;text-align:center}
+@media(max-width:600px){.status,.island{display:none}}
+
+/* Selected option 2: black, stacked text links. */
+.resources{display:grid;justify-items:start;gap:0;margin-top:25px}.resources .resource-button,.resources button{display:inline-flex;align-items:center;gap:14px;min-height:44px;padding:8px 0;border:0!important;background:none;color:#000000;font:700 16px Arial,sans-serif;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:5px;cursor:pointer}.resources span{font-size:21px}.resources button:disabled{cursor:default}.resources :is(a,button):focus-visible{outline:2px solid #000000;outline-offset:4px}h1{font-size:44px}
+/* Compact desktop presentation: proportional text and device, with a black edge. */
+.phone{border-color:#000000}.button{background:#000000}
+@media(min-width:601px){
+.stage{zoom:.75;min-height:calc(100svh / .75);max-width:1400px;gap:200px;align-items:center;justify-content:center}
+.phone{position:relative;height:830px;min-height:830px;top:auto}
+}
+/* Custom-type resource links with a little breathing room. */
+.resources{row-gap:0}
+.resources .resource-button,.resources button{font-family:TripPuff,Arial,sans-serif;font-weight:400;min-height:0;padding:0;line-height:1.5}
+.resources span{font-family:Arial,sans-serif;font-size:16px}
+.device-group{display:flex;align-items:center;gap:48px;flex-shrink:0}.preview-controls{display:grid;gap:14px}.preview-controls button{border:0;background:none;color:#000000;padding:6px 0;font:14px Arial,sans-serif;text-decoration:underline;text-underline-offset:4px;cursor:pointer;white-space:nowrap}.preview-controls button:focus-visible{outline:2px solid #000000;outline-offset:4px}
+@media(max-width:600px){.device-group{display:contents}.preview-controls{display:none}}
+.preview-controls{gap:4px}.preview-controls button{width:44px;height:44px;padding:0;display:grid;place-items:center;text-decoration:none}.day-chevron{width:8px;height:8px;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(45deg);margin-top:-3px}.day-chevron.previous{transform:rotate(225deg);margin-top:3px}
+.preview-controls{--icon-paper:#ffffff}.preview-controls svg{width:24px;height:24px}.preview-controls button{width:64px;height:64px}.preview-controls svg{width:48px;height:48px}.resources .colour-word,.resources .colour-word span{font:inherit}.resources .colour-word{display:inline}</style></head><body><main class="stage"><section class="intro"><p class="eyebrow">Chicago / a personal project</p><h1>My Chicago Itinerary</h1>
+<p class="short-intro">I like staying a little longer in the cities I visit for conferences. Chicago has always been a dream of mine, so I built myself an itinerary to make sure I could fit it all into three days.</p>
+<p class="colour-heading">Why I chose these colours:</p>
+<ul class="colour-notes"><li><strong>Blue</strong>; inspired by Virgil Abloh’s <i>Figures of Speech</i> book.</li><li><strong>Yellow</strong>; inspired by Frank Lloyd Wright’s stained glass.</li><li><strong>Cherry</strong>; my take on Mies’s steel and OMA’s McCormick Tribune Campus Center at IIT.</li></ul>
+<h2>What it does</h2><ul class="features"><li>Daily plans connected to Google Maps.</li><li>Nearby food choices and a searchable place library if I want to go off track.</li><li>All bookings together with my itinerary, with originals in my iCloud Drive folder.</li><li>A personal journal, with light and dark modes throughout.</li><li>An easy “open my iPhone and go” interface, just for how I like to use it :)))</li></ul>
+<p class="note">Private details removed. Demo notes stay in your browser.</p>
+
+<div class="resources"><a class="resource-button" href="colour-archive.html" aria-label="Colour archive"><span class="colour-word" aria-hidden="true"><span style="color:#144FFF">C</span><span style="color:#9E6F0B">o</span><span style="color:#FF143C">l</span><span style="color:#001F7A">o</span><span style="color:#B80E2B">u</span><span style="color:#4271FF">r</span> <span style="color:#7A0014">a</span><span style="color:#3D2A08">r</span><span style="color:#590715">c</span><span style="color:#071C59">h</span><span style="color:#33040C">i</span><span style="color:#190206">v</span><span style="color:#041033">e</span></span> <span aria-hidden="true">↗</span></a><a class="resource-button" href="https://github.com/ronzaum/my-chicago-itinerary" target="_blank" rel="noopener">Clone the repo <span aria-hidden="true">↗</span></a><button type="button" id="copy-prompt">Copy starter prompt <span aria-hidden="true">↗</span></button>
+</div><p id="copy-status" class="note" role="status">Public source, setup guide and build prompt included.</p>
+<details class="starter"><summary>Read the starter prompt</summary><pre id="starter-prompt">Build a personal travel app closely matching My Chicago Itinerary: a compact, phone-first Chicago itinerary with playful type, strong day palettes, real Google Maps and a paper-ticket booking wallet.
+
+START HERE
+If I provide the clean public repository, clone it into a separate project and preserve its components, typography, spacing, illustrations, colours and interactions. Replace trip content through its data layer. Never clone a private repository or copy private history, credentials or documents. If no repository is available, say that a prompt cannot guarantee an exact copy. Build from this specification and ask for a reference screenshot only when needed to resolve a concrete visual ambiguity.
+
+Ask for my destination, dates, confirmed bookings, accommodation, travel times, interests, food preferences and document links. Keep unknown details blank. Do not invent bookings, ratings, links or opening hours. Keep tour and flight times fixed. Fit optional activities and nearby food around them. This is a personal tool, not a multi-user service.
+
+MY COMMAND WORKFLOW
+Ron used installed custom skills named explore, create-plan and execute. Slash-style names: /explore, /create-plan, /execute. These are not universal built-in commands. In the recorded Codex setup, skills were invoked with $explore, $create-plan and $execute &lt;plan-file&gt;.
+If those skills are installed, read and use them. If unavailable, use the following normal-language equivalents without pretending to have installed or executed a skill:
+1. Explore: inspect the existing code, data and design. Identify the source of truth and dependencies. Clarify only material ambiguities. Do not redesign yet.
+2. Create-plan: write a bounded implementation plan with accepted design choices, tasks and checks. Preserve the original reference alongside alternatives.
+3. Execute: implement that plan, track progress and test the real flows. Continue through routine implementation decisions. Ask before external publication, new paid services or exposing private information.
+These are workflow summaries, not redistributed original skill files.
+
+PROJECT RULES
+Read AGENTS.md and PROJECT_MEMORY.md when present. Keep concise standing instructions in AGENTS.md and current accepted decisions in PROJECT_MEMORY.md; mark superseded choices clearly. Separate maintained source, generated output and public-demo files. Preserve the private app when making a public derivative.
+
+VISUAL SPECIFICATION
+Use the repository&#x27;s bundled custom Trip Puff Open wordmark font and editorial interface font, retaining their licence notices. If the source/fonts are unavailable, explain the fallback rather than claiming an exact match. Compact app header: journal icon, centred wordmark, inventory icon. Date tabs, Day view / Map view, short day banner, then the timeline. Keep 16px outer gutters, aligned inner content, fine timeline line/dots, concise two-line rows and compact icon actions. Map and directions controls use quiet outlined edges; ticket actions retain the ticket silhouette, punched notches, perforation and ticket icon. Do not flatten them into generic cards.
+Use a separate palette per day with matching text tokens and both light and dark modes. Colour inspiration: blue from Virgil Abloh’s book, yellow from Frank Lloyd Wright’s stained glass, cherry from Mies’s steel and OMA’s McCormick Tribune Campus Center at IIT. Use exact source palettes listed below; do not create new shades. Preserve source-approved neutral action outlines and original published map styling. Sightseeing and practical/meal rows have distinct fills. Dark mode separates dark date navigation, midtone view navigation and a brighter day banner. Compare the same content when showing design alternatives.
+
+FUNCTIONS
+- Daily itinerary with timings, travel notes, optional stops and detail pages. Preserve confirmed constraints.
+- Google Maps with public venue markers, clustering, day/chapter focus, venue cards, zoom, expanded map and directions. Meal maps show only that specific meal&#x27;s choices, with sightseeing context kept distinct. Never label a static image or link list as a working map.
+- Use a dedicated Maps browser key restricted to the new site&#x27;s exact domains and necessary APIs. Explain quota/billing and get approval before configuration. Never reuse Ron&#x27;s key. Test actual tiles and place cards.
+- Food choices stay near the existing route. Expand a centred fork/knife + count + chevron control. Include sources and distinguish practical convenience from personal recommendations.
+- Searchable Reference library with category/area filters. Expanded entries have a photo/credit, short description, practical details, action links and collapsible sources.
+- Paper-ticket booking wallet. Link each document to the user&#x27;s real original in their own iCloud Drive folder. Do not invent URLs, broaden sharing or upload originals without permission. Public demo buttons open a matching themed privacy notice instead.
+- Illustrated trip overview, journal and light/dark toggle. Do not claim secure/private storage unless implemented. Demo journal stays in the visitor&#x27;s browser, with separate storage keys and no access to the owner&#x27;s notes.
+- Desktop showcase: simple white page, Arial body copy, custom heading and an interactive phone frame. On mobile let the app fill the screen. Keep resources outside the app.
+
+CHECK BEFORE HANDOFF
+Test all dates in both themes; day-to-map navigation; each meal&#x27;s marker scope; venue cards; directions; zoom and expanded map; ticket actions and notice dismissal; Reference search/filter/expansion; journal save/reload/clear; and narrow-screen overflow. Verify keyboard focus and Escape for dialogs. Report observed checks separately from untested physical-phone behaviour. Don&#x27;t claim perfection.
+For a public demo remove accommodation identity/coordinates/routes, flight identifiers/times, seats/cabin, prices, booking references, private URLs, documents, journal entries and credentials from every delivered file and asset, not just visible text. Only ship the clean derivative with fresh history.
+
+EXACT REFERENCE PALETTES
+{
+  &quot;01&quot;: {
+    &quot;name&quot;: &quot;Electric blue&quot;,
+    &quot;light&quot;: &quot;--c0:#001F7A;--t0:#ffffff;--c1:#144FFF;--t1:#ffffff;--c2:#99B2FF;--t2:#000000;--c3:#4271FF;--t3:#000000;--c4:#001F7A;--t4:#ffffff;--c5:#EDF2FF;--t5:#000000&quot;,
+    &quot;dark&quot;: &quot;--c0:#020819;--t0:#ffffff;--c1:#071C59;--t1:#ffffff;--c2:#041033;--t2:#ffffff;--c3:#071C59;--t3:#ffffff;--c4:#144FFF;--t4:#ffffff;--c5:#020819;--t5:#ffffff&quot;
+  },
+  &quot;10&quot;: {
+    &quot;name&quot;: &quot;Yellow C3&quot;,
+    &quot;light&quot;: &quot;--c0:#9E6F0B;--t0:#ffffff;--c1:#FFD503;--t1:#000000;--c2:#FFF8D7;--t2:#000000;--c3:#FFE039;--t3:#000000;--c4:#9E6F0B;--t4:#ffffff;--c5:#FFF8D7;--t5:#000000;--view-bg:#FFFBE9;--selected-day-bg:#FFDC35;--meal-bg:#FFF0B0&quot;,
+    &quot;dark&quot;: &quot;--c0:#060400;--t0:#ffffff;--c1:#181103;--t1:#ffffff;--c2:#0B0801;--t2:#ffffff;--c3:#3D2A08;--t3:#ffffff;--c4:#3D2A08;--t4:#ffffff;--c5:#0B0801;--t5:#ffffff;--view-bg:#3D2A08;--selected-day-bg:#181103;--meal-bg:#110C02&quot;
+  },
+  &quot;14&quot;: {
+    &quot;name&quot;: &quot;Cherry&quot;,
+    &quot;light&quot;: &quot;--c0:#7A0014;--t0:#ffffff;--c1:#FF143C;--t1:#000000;--c2:#FF99AA;--t2:#000000;--c3:#FF4262;--t3:#000000;--c4:#7A0014;--t4:#ffffff;--c5:#FFEDF0;--t5:#000000&quot;,
+    &quot;dark&quot;: &quot;--c0:#190206;--t0:#ffffff;--c1:#590715;--t1:#ffffff;--c2:#33040C;--t2:#ffffff;--c3:#590715;--t3:#ffffff;--c4:#B80E2B;--t4:#ffffff;--c5:#190206;--t5:#ffffff&quot;
+  }
+}
+Approved event fills: light Cherry #FFD6DE; light Blue #D6E0FF; dark Cherry #2B030A. These apply only to meal/practical rows.
+
+
+Start by reading README.md and CUSTOMIZE.md. Work from this repository, not from a screenshot. Use the workflows in .agents/skills when your assistant supports project skills; otherwise follow their instructions as ordinary prompts. Never publish personal bookings or credentials.
+</pre></details>
+<p class="note"><a href="./?day=2026-10-31">Open the itinerary without the frame ↗</a></p></section><div class="device-group"><section class="phone" aria-label="Interactive phone preview"><span class="button" aria-hidden="true"></span><div class="screen"><div class="status" aria-hidden="true"><span>9:41</span><span class="status-icons"><svg viewBox="0 0 18 14" aria-hidden="true"><path d="M1 10h3v4H1zm4-3h3v7H5zm4-3h3v10H9zm4-3h3v13h-3z" fill="currentColor"/></svg><svg viewBox="0 0 18 14" aria-hidden="true"><path d="M1 4.5a12 12 0 0 1 16 0M4 7.5a7.5 7.5 0 0 1 10 0M7 10.5a3 3 0 0 1 4 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="9" cy="13" r="1" fill="currentColor"/></svg><svg class="battery" viewBox="0 0 29 14" aria-hidden="true"><rect x="1" y="1" width="23" height="12" rx="3" fill="none" stroke="currentColor"/><rect x="3" y="3" width="19" height="8" rx="1" fill="currentColor"/><path d="M26 4v6q3-1 3-3t-3-3" fill="currentColor"/></svg></span></div><div class="island" aria-hidden="true"></div><iframe src="./?day=2026-10-31" title="Explore the Chicago trip app"></iframe><div class="bottom" aria-hidden="true"></div></div></section><nav class="preview-controls" aria-label="Phone controls"><button id="preview-theme" type="button" aria-label="Toggle light and dark mode" title="Toggle light and dark mode"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M14.5 3a9.2 9.2 0 1 0 6.3 13.2c-7.1 1.7-11.3-5.6-6.3-13.2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="m19 3.5 .7 1.8 1.8.7-1.8.7L19 8.5l-.7-1.8-1.8-.7 1.8-.7Z" fill="currentColor"/></svg></button></nav></div></main><script>
+document.getElementById('copy-prompt').addEventListener('click',async()=>{const status=document.getElementById('copy-status');try{await navigator.clipboard.writeText(document.getElementById('starter-prompt').textContent);status.textContent='Prompt copied. Paste it into your coding assistant.';}catch{document.querySelector('.starter').open=true;status.textContent='Select and copy the prompt below.';}});
+const previewFrame=document.querySelector('iframe');
+document.getElementById('preview-theme').onclick=()=>previewFrame.contentWindow.dispatchEvent(new previewFrame.contentWindow.Event('preview-toggle-theme'));
+const themeIcons={"SUN": "<svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" aria-hidden=\"true\"><g fill=\"currentColor\"><circle cx=\"12\" cy=\"12\" r=\"4.5\"/><circle cx=\"12\" cy=\"2.8\" r=\"1.4\"/><circle cx=\"12\" cy=\"21.2\" r=\"1.4\"/><circle cx=\"2.8\" cy=\"12\" r=\"1.4\"/><circle cx=\"21.2\" cy=\"12\" r=\"1.4\"/><circle cx=\"5.5\" cy=\"5.5\" r=\"1.4\"/><circle cx=\"18.5\" cy=\"18.5\" r=\"1.4\"/><circle cx=\"5.5\" cy=\"18.5\" r=\"1.4\"/><circle cx=\"18.5\" cy=\"5.5\" r=\"1.4\"/></g></svg>", "MOON": "<svg viewBox=\"0 0 24 24\" width=\"22\" height=\"22\" aria-hidden=\"true\"><path d=\"M14.5 3a9.2 9.2 0 1 0 6.3 13.2c-7.1 1.7-11.3-5.6-6.3-13.2Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"m19 3.5 .7 1.8 1.8.7-1.8.7L19 8.5l-.7-1.8-1.8-.7 1.8-.7Z\" fill=\"currentColor\"/></svg>"};
+function syncPreviewIcon(){const dark=previewFrame.contentDocument?.documentElement.dataset.theme==='dark';const button=document.getElementById('preview-theme');button.innerHTML=dark?themeIcons.SUN:themeIcons.MOON;button.setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');button.title=button.getAttribute('aria-label');}
+let themeObserver;
+previewFrame.addEventListener('load',()=>{themeObserver?.disconnect();themeObserver=new MutationObserver(syncPreviewIcon);themeObserver.observe(previewFrame.contentDocument.documentElement,{attributes:true,attributeFilter:['data-theme']});syncPreviewIcon();});
+</script></body></html>

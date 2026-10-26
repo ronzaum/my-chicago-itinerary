@@ -1,0 +1,111 @@
+/* Map content inherits the shared itinerary shell and day palette. */
+.chapter-map{--paper:var(--c5);--ink:var(--t5);--accent:var(--c4);--band:var(--c2);background:var(--paper);color:var(--ink)}
+.chapter-map .map-wrap{position:relative;isolation:isolate}
+.chapter-map .map{height:var(--map-viewport-height,clamp(220px,calc(100dvh - 300px),650px));background:var(--c5);font-family:inherit;z-index:0}
+.chapter-map .map-controls{position:absolute;top:9px;left:9px;right:9px;display:flex;justify-content:flex-end;gap:6px;z-index:450;pointer-events:none}
+.chapter-map .utility-controls{display:grid;gap:4px;pointer-events:auto;align-content:start}
+.chapter-map .utility-controls{grid-template-columns:repeat(4,44px)}
+.chapter-map .map-controls button{display:flex;align-items:center;justify-content:center;width:44px;height:44px;padding:0;border:0;border-radius:7px;background:var(--paper);color:var(--ink);box-shadow:none}
+.chapter-map .map-controls button[aria-pressed=true]{background:var(--c2);color:var(--t2)}
+.chapter-map .map-controls button[aria-pressed=false]{color:var(--ink)}
+.chapter-map .map-controls svg{width:17px;height:17px;display:block}
+.chapter-map .pin{background:none;border:0}
+.chapter-map .pin b{height:27px;min-width:27px;padding:0 6px;border-radius:50px;display:flex;align-items:center;justify-content:center;background:var(--pin-colour);color:var(--pin-ink);font-size:11px;border:1px solid var(--paper);white-space:nowrap;font-weight:600;box-shadow:none}
+.chapter-map .pin.active b{outline:1px solid var(--pin-colour);outline-offset:2px}
+.chapter-map .pin.mixed b{background:var(--pin-ring);border:0;padding:1px}
+.chapter-map .pin.mixed b span{background:var(--pin-colour);color:var(--pin-ink);height:25px;line-height:25px;padding:0 5px;width:100%;border-radius:30px;text-align:center}
+.chapter-map .pizza-pin{background:none;border:0}
+.chapter-map .pizza-pin b{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--paper);color:var(--ink);border:1.5px solid var(--ink);box-shadow:none}
+.chapter-map .pizza-pin svg{width:17px;height:17px}
+.chapter-map .pizza-pin.best-match b{background:var(--c2);color:var(--t2)}
+.chapter-map .pizza-pin.closest b{outline:2px solid var(--accent);outline-offset:2px}
+.chapter-map .pizza-pin.closed b{opacity:1;border-style:dashed}
+.chapter-map .pizza-pin.active b{outline:3px solid var(--accent);outline-offset:2px}
+.chapter-map .modebar{display:flex;min-height:42px;gap:0}
+.chapter-map .modebar button{display:flex;gap:4px;flex:1;align-items:center;justify-content:center;min-height:42px;padding:7px 5px;border:0;border-radius:0;font-size:10px;white-space:nowrap}
+.chapter-map .modebar button[aria-pressed=true]{background:var(--band);color:var(--t2)}
+.chapter-map .modebar i{width:6px;height:6px;border-radius:50%;background:var(--chapter);display:inline-block;flex:none}
+.chapter-map .pizza-selection{padding:14px 16px 16px;border-top:1px solid var(--c2)}
+.chapter-map .pizza-selection h2{font-size:20px;line-height:1.1;margin:3px 0 8px}
+.chapter-map .pizza-selection p{font-size:11px;line-height:1.45;margin:5px 0}
+.chapter-map .pizza-kicker{font-size:9px!important;text-transform:uppercase;letter-spacing:.08em;opacity:1}
+.chapter-map .selection .group{display:flex;gap:4px;flex-wrap:wrap;padding:8px 16px}
+.chapter-map .group button{min-height:32px;padding:5px 7px;font-size:10px;border:0;border-radius:0;text-align:left}
+.chapter-map .group button[aria-pressed=true]{background:var(--band)}
+.chapter-map .map-note{padding:5px 14px 12px;font-size:10px;opacity:1}
+.chapter-map .filter-feedback{position:absolute;left:50%;bottom:25px;transform:translateX(-50%);z-index:450;background:var(--paper);color:var(--ink);padding:7px 12px;border-radius:20px;font-size:10px;opacity:0;pointer-events:none;white-space:nowrap}
+.chapter-map .filter-feedback.visible{opacity:1}
+.phone-app.chapter-expanded>.appbar,.phone-app.chapter-expanded>.days,.chapter-expanded #app-footer{display:none}
+.chapter-expanded #view-switch{display:grid;position:sticky;top:0;z-index:500}
+.chapter-expanded .chapter-map .map{height:calc(100dvh - 129px - env(safe-area-inset-bottom))}
+
+.chapter-map .pizza-selection .row-actions{padding:9px 0 0}
+.chapter-map .pizza-selection h2 a{color:inherit;text-decoration:none}
+.chapter-map{position:relative}
+.chapter-map .google-place-host{padding-top:0}
+.chapter-map .google-place-host gmp-place-details{display:block;width:100%;border:0;color-scheme:inherit}
+.chapter-map .google-place-status{padding:12px 16px;font-size:12px}
+.chapter-map .google-place-actions .place-links{padding:12px 16px}
+.chapter-map .reference-pin{background:none;border:0}
+.chapter-map .reference-pin b{display:grid;place-items:center;width:22px;height:22px;border:1px solid var(--ink);border-radius:50%;background:var(--paper);color:var(--ink);font-size:12px;font-weight:600;opacity:1}
+.chapter-map .reference-pin.historical b{border-style:dashed;opacity:1}
+.chapter-map .reference-pin.active b{outline:2px solid var(--accent);outline-offset:2px}
+.chapter-map .google-station{padding:0;border:0;background:transparent}
+.chapter-map .google-station b{display:block;width:7px;height:7px;border:1px solid;border-radius:50%}
+.chapter-map .selection{border-top:1px solid var(--c2);background:var(--paper);position:relative;z-index:460}
+.chapter-map .place-card{padding:18px 16px}
+.chapter-map .place-card h2{font-size:20px;line-height:1.2;margin:6px 0}
+.chapter-map .place-card p{font-size:12px;line-height:1.5}
+.chapter-map .place-card .location-note{font-size:10px;opacity:1}
+.chapter-map .place-links{display:flex;flex-wrap:wrap;gap:7px;padding:10px 16px 16px}
+.chapter-map .place-links a{display:inline-flex;align-items:center;min-height:32px;padding:6px 9px;border:1px solid currentColor;border-radius:4px;color:var(--ink);font-size:11px;text-decoration:none}
+.chapter-map .close-place{position:sticky;display:block;top:4px;margin:4px 8px 4px auto;width:32px;height:32px;border:0;border-radius:50%;background:var(--paper);color:var(--ink);font-size:23px;z-index:2}
+
+/* Expanded details replace the entire map with a standalone Places UI Kit view.
+   Google UI Kit inherits the app theme through its supported color-scheme API. */
+.chapter-map .selection{--panel-surface:var(--c5);--panel-text:var(--t5);--panel-link:var(--t5);--panel-border:var(--c2);color-scheme:light;--gmp-mat-color-surface:var(--panel-surface)}
+[data-theme=dark] .chapter-map .selection{--panel-surface:var(--c5);--panel-text:var(--t5);--panel-link:var(--t5);--panel-border:var(--c2);color-scheme:dark}
+.chapter-map .selection:not([hidden]){position:absolute;inset:auto 16px 40px;max-height:55%;display:flex;flex-direction:column;overflow:hidden;background:var(--panel-surface);color:var(--panel-text);border:1px solid var(--panel-border);border-radius:16px;box-shadow:none;z-index:460}
+.chapter-map .selection.place-expanded{inset:0;max-height:none;border:0;border-radius:0;box-shadow:none}
+.chapter-map .place-sheet-toolbar{display:flex;align-items:center;justify-content:space-between;flex:none;padding:3px 8px;border-bottom:1px solid var(--panel-border);background:var(--panel-surface)}
+.chapter-map .expand-place{border:0;background:transparent;color:var(--panel-link);font:500 13px/1.3 Arial,sans-serif;padding:10px 12px;min-height:40px}
+.chapter-map .close-place{position:static;margin:0 0 0 auto;flex:none;background:var(--panel-surface);color:var(--panel-text);width:40px;height:40px}
+.chapter-map .place-sheet-body{overflow:auto;overscroll-behavior:contain;min-height:0}
+.chapter-map .google-place-host gmp-place-details,.chapter-map .google-place-host gmp-place-details-compact{display:block;width:100%;border:0;color-scheme:inherit}
+.chapter-map .google-place-host[hidden]{display:none}
+.chapter-map .selection:not(.place-expanded) .google-place-actions{display:none}
+.chapter-map .selection:not(:has(.place-sheet-body)){overflow:auto}
+/* Keep error and local-fallback controls legible in both site themes. */
+.chapter-map .selection .place-links a,.chapter-map .selection .place-links button{color:var(--panel-link);background:var(--panel-surface);border:1px solid currentColor;border-radius:4px;padding:6px 9px;min-height:36px;font:500 12px/1.4 Arial,sans-serif;text-decoration:none}
+
+/* Hide the whole map, not just its attribution. Its dimensions and camera stay
+   intact for Show map; the standalone Google card retains its own attribution. */
+.chapter-map .map-wrap:has(.selection.place-expanded:not([hidden]))>.map,
+.chapter-map .map-wrap:has(.selection.place-expanded:not([hidden]))>.map-controls,
+.chapter-map .map-wrap:has(.selection.place-expanded:not([hidden]))>.filter-feedback{visibility:hidden;pointer-events:none}
+
+/* Chapter colours and device location share both map providers. */
+.chapter-map .pin{padding:0}
+.chapter-map .pin b{height:30px;min-width:30px;box-sizing:border-box;padding:0}
+.chapter-map .pin.mixed b{padding:2px}
+.chapter-map .pin.mixed b span{height:26px;line-height:26px;box-sizing:border-box;padding:0}
+.chapter-map .pin.historical{opacity:1}
+.chapter-map .reference-dot{display:grid;place-items:center}
+.chapter-map .reference-dot b{display:block;width:8px;height:8px;min-width:0;padding:0;border:0;border-radius:50%;background:var(--reference-colour)}
+.chapter-map .reference-dot.active b{outline:1px solid var(--reference-colour);outline-offset:3px}
+.chapter-map .user-location{padding:0;border:0;background:none;pointer-events:none}
+.chapter-map .user-location b{display:block;width:18px;height:18px;box-sizing:border-box;border-radius:50%;background:var(--c0);border:3px solid var(--t0);box-shadow:none}
+.chapter-map .filter-feedback{white-space:normal;text-align:center;width:max-content;max-width:calc(100% - 40px);box-sizing:border-box}
+.chapter-map [data-control=locate][aria-busy=true]{opacity:1}
+
+/* Keep recovery obvious and easy to tap when Google is unavailable. */
+#chapter-map [data-retry-map]{min-height:44px;padding:8px 14px;margin-top:8px;border:1px solid currentColor;border-radius:4px;font:inherit}
+
+/* Food focus uses only the selected day's approved palette. */
+.food-map-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:8px 16px;background:var(--c5);color:var(--t5);font-size:12px}
+.food-map-bar a{display:flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:6px 12px;border:1px solid var(--c3);border-radius:5px;text-decoration:none;font-size:10px}
+.food-map-bar>a:only-child{width:100%}
+.food-focus-pin{display:flex;align-items:center;justify-content:center}
+.food-choice-pin b{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:50%;font-size:12px}
+.food-context-pin{pointer-events:auto}
+.chapter-map .modebar[hidden]{display:none}

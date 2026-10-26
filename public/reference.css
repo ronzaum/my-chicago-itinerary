@@ -1,0 +1,90 @@
+/* Scoped to Reference: preserve the shared itinerary and other inventory pages. */
+.inventory-reference .reference-search .search-line,
+.inventory-reference .reference-search .search-filters select{background:var(--reference-control);color:#fff;border:0;border-radius:8px;box-shadow:none}
+.inventory-reference .reference-search .search-line{display:flex;align-items:center;gap:10px;padding:0 12px;min-height:48px}
+.inventory-reference .reference-search input{min-width:0;width:100%;color:#fff;background:transparent;border:0;padding:12px 0;font:inherit}
+.inventory-reference .reference-search input::placeholder{color:#fff;opacity:1}
+.inventory-reference .reference-search input::-webkit-search-cancel-button{display:none}
+.inventory-reference .reference-search button{color:#fff;background:transparent;border:0;min-width:36px;min-height:44px;font-size:24px;padding:0}
+.inventory-reference .reference-search button[hidden]{display:none}
+.inventory-reference .reference-search .search-filters{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:8px}
+.inventory-reference .reference-search .search-filters select{width:100%;min-width:0;min-height:44px;padding:8px;font:inherit;font-size:13px;text-overflow:ellipsis}
+.inventory-reference .reference-search .search-filters option{background:var(--reference-control);color:#fff}
+.inventory-reference .reference-search :is(input,button,select):focus-visible{outline:2px solid var(--c4);outline-offset:2px}
+.inventory-reference .reference-entry.is-planned{background:var(--c2)}
+.inventory-reference .reference-entry summary>span{display:block;min-width:0}
+.inventory-reference .reference-entry summary :is(strong,small,.reference-address){display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.inventory-reference .reference-address{font-size:11px;line-height:1.5;margin-top:3px}
+.inventory-reference mark{background:var(--c1);color:var(--t1);border-radius:2px}
+.inventory-reference .reference-full-name{font:inherit;font-size:20px;line-height:1.25;margin:0 0 12px}
+/* Option C: same palette roles for blue, yellow, cherry and walnut. */
+body.inventory-open.reference-open{--inventory-bg:var(--c5);--inventory-ink:var(--t5);--reference-control:var(--c0)}
+:root[data-theme=dark] body.inventory-open.reference-open{--inventory-bg:var(--c5);--inventory-ink:#fff;--reference-control:var(--c1)}
+:root .inventory-surface.inventory-reference .reference-search .search-line{background:var(--reference-control);color:#fff}
+.inventory-reference .reference-entry.is-planned{background:var(--c2)}
+
+/* One type scale and matching toy-like icons across all three controls. */
+.inventory-reference .reference-search{--control-size:16px}
+.inventory-reference .reference-search :is(input,select){font-family:inherit;font-size:var(--control-size);font-weight:400;line-height:1.25;letter-spacing:0}
+.inventory-reference .reference-search .search-line{min-height:48px;gap:10px;padding-inline:14px}
+.inventory-reference .reference-control-icon{display:block;width:var(--control-size);height:var(--control-size);flex:none;color:#fff}
+.inventory-reference .reference-select{position:relative;min-width:0;color:#fff}
+.inventory-reference .reference-search .reference-select select{appearance:none;-webkit-appearance:none;background-image:none;width:100%;height:48px;padding:12px 40px 12px 14px;font-size:var(--control-size);line-height:1.25}
+.inventory-reference .reference-select-arrow{position:absolute;right:14px;top:50%;transform:translateY(-50%);pointer-events:none}
+
+.inventory-reference .reference-search :is(input,select),.inventory-reference .reference-search .reference-select select{font-size:12px}
+
+/* Separate controls from the header without using the list surface. */
+body.inventory-open.reference-open{--reference-control:var(--c0)}
+:root[data-theme=dark] body.inventory-open.reference-open{--reference-control:var(--c1)}
+
+/* Exact approved palette surfaces; no generated shades. */
+.inventory-surface.inventory-reference .inventory-search.reference-search{background:var(--c3)}
+
+/* Lighter exact palette panel contrasts with dark control fills. */
+.inventory-surface.inventory-reference .inventory-search.reference-search{background:var(--c2)}
+:root[data-theme=dark] .inventory-surface.inventory-reference .inventory-search.reference-search{background:var(--c4)}
+
+/* Explicit surface roles; yellow repeats c2/c5 and needs its own row token. */
+body.inventory-open.reference-open{--reference-control:var(--c0);--reference-row:var(--c2)}
+:root[data-theme=dark] body.inventory-open.reference-open{--reference-control:var(--c0)}
+.inventory-surface.inventory-reference .inventory-search.reference-search{background:var(--c1)}
+:root[data-theme=dark] .inventory-surface.inventory-reference .inventory-search.reference-search{background:var(--c4)}
+.inventory-reference .reference-entry{background:var(--c5);color:var(--t5)}
+.inventory-reference .reference-entry.is-planned{background:var(--reference-row);color:var(--t2)}
+:root[data-reference-palette="10"] body.inventory-open.reference-open{--reference-row:var(--c3)}
+:root[data-reference-palette="10"][data-theme=dark] body.inventory-open.reference-open{--reference-row:var(--c1)}
+
+:root[data-theme=dark] body.inventory-open.reference-open{--reference-control:var(--c1)}
+:root[data-reference-palette="10"][data-theme=dark] body.inventory-open.reference-open{--reference-control:var(--c0)}
+
+:root .inventory-surface.inventory-reference .reference-search :is(.search-line,select){border:0;box-shadow:none}
+
+/* Approved compact interior: shared 31px guides and 8px section rhythm. */
+.inventory-reference{--reference-recede:var(--c0);--reference-open-ink:var(--t2)}
+:root[data-theme=dark] .inventory-reference{--reference-recede:var(--c4)}
+:root[data-reference-palette="10"] .inventory-reference{--reference-open-ink:var(--t3)}
+:root[data-reference-palette="10"][data-theme=dark] .inventory-reference{--reference-open-ink:var(--t1)}
+.inventory-reference .reference-entry[open]{background:var(--reference-row);color:var(--reference-open-ink);border-bottom-color:var(--c3)}
+.inventory-reference .reference-entry[open]>summary{padding:16px 31px 8px}
+.inventory-reference .reference-entry[open]>summary strong{white-space:normal;overflow:visible;line-height:24px}
+.inventory-reference .reference-entry[open]>summary :is(small,.reference-address){margin-top:4px;line-height:16px}
+.inventory-reference .reference-interior{padding:0 31px 16px}
+.inventory-reference .reference-interior .reference-hero{margin:0;width:100%}
+.inventory-reference .reference-interior figcaption{padding:0;margin-top:4px;font-size:10px;line-height:16px}
+.inventory-reference .reference-section{margin-top:8px;padding-top:8px;border-top:1px solid var(--c3)}
+.inventory-reference .reference-section h3{font-size:10px;font-weight:400;letter-spacing:.7px;text-transform:uppercase;line-height:16px;margin:0 0 4px;color:var(--reference-recede)}
+.inventory-reference .reference-interior p{font-size:12px;line-height:16px;margin:0}
+.inventory-reference .reference-actions{display:flex;gap:8px;margin-top:8px}
+.inventory-reference .reference-actions a{display:flex;align-items:center;justify-content:center;flex:1;min-width:0;min-height:44px;padding:12px 4px;background:var(--c0);color:var(--t0);font-size:12px;line-height:20px;text-align:center;text-decoration:none;white-space:nowrap}
+.inventory-reference .reference-source-disclosure{margin-top:8px;border-top:1px solid var(--c3)}
+.inventory-reference .reference-source-disclosure>summary{min-height:44px;padding:8px 0;display:flex;align-items:center;font-size:10px;line-height:16px}
+.inventory-reference .reference-entry[open] .reference-source-disclosure>summary:after{content:'+';right:0;top:12px}
+.inventory-reference .reference-entry[open] .reference-source-disclosure[open]>summary:after{content:'−'}
+.inventory-reference .reference-source-disclosure .reference-sources{margin:0;padding:0;border:0;opacity:1}
+.inventory-reference .reference-source-disclosure h2{display:none}
+.inventory-reference .reference-source-disclosure p{padding:4px 0;overflow-wrap:anywhere}
+.inventory-reference:has(.reference-entry[open]) .reference-entry:not([open]){background:var(--c5);color:var(--reference-recede);border-bottom-color:var(--c3)}
+.inventory-surface.inventory-reference:has(.reference-entry[open]) .reference-search{background:var(--c5);color:var(--reference-recede)}
+:root .inventory-surface.inventory-reference:has(.reference-entry[open]) .reference-search :is(.search-line,input,select,button,.reference-control-icon,.reference-select){background:var(--c5);color:var(--reference-recede)}
+.inventory-reference:has(.reference-entry[open]) .reference-search input::placeholder{color:var(--reference-recede)}

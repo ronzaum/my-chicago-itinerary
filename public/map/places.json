@@ -1,0 +1,991 @@
+{
+  "checked": "2026-09-16",
+  "places": {
+    "publican-restaurant": {
+      "lat": 41.886726850267,
+      "lng": -87.648838896377,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "837 W FULTON MARKET, CHICAGO, IL, 60607",
+      "checked": "2026-09-16",
+      "categories": [
+        "food"
+      ]
+    },
+    "middlebrow": {
+      "lat": 41.917531439174,
+      "lng": -87.698830158741,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2840 W ARMITAGE AVE, CHICAGO, IL, 60647",
+      "checked": "2026-09-16"
+    },
+    "wildberry": {
+      "lat": 41.88452844065,
+      "lng": -87.623845751304,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "130 E RANDOLPH ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16"
+    },
+    "monteverde": {
+      "lat": 41.881752926752,
+      "lng": -87.65311333791,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1020 W MADISON ST, CHICAGO, IL, 60607",
+      "checked": "2026-09-16"
+    },
+    "three-arts": {
+      "lat": 41.905856965676,
+      "lng": -87.630121160313,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1300 N DEARBORN ST, CHICAGO, IL, 60610",
+      "checked": "2026-09-16"
+    },
+    "roberts-house": {
+      "lat": 41.890122324478,
+      "lng": -87.827329875673,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "603 EDGEWOOD PL, RIVER FOREST, IL, 60305",
+      "checked": "2026-09-16"
+    },
+    "barcargo": {
+      "lat": 41.892554691818,
+      "lng": -87.634019966384,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "605 N WELLS ST, CHICAGO, IL, 60654",
+      "checked": "2026-09-16"
+    },
+    "giant": {
+      "lat": 41.917335848291,
+      "lng": -87.707456817583,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "3209 W ARMITAGE AVE, CHICAGO, IL, 60647",
+      "checked": "2026-09-16"
+    },
+    "maxwells": {
+      "lat": 41.887471442446,
+      "lng": -87.665187025119,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1516 W CARROLL AVE, CHICAGO, IL, 60607",
+      "checked": "2026-09-16"
+    },
+    "hills-decaro": {
+      "lat": 41.892204667036,
+      "lng": -87.800357791211,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "313 FOREST AVE, OAK PARK, IL, 60302",
+      "checked": "2026-09-16"
+    },
+    "pizza-friendly": {
+      "lat": 41.900444959278,
+      "lng": -87.686885034684,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1039 N WESTERN AVE, CHICAGO, IL, 60622",
+      "checked": "2026-09-16"
+    },
+    "petterinos": {
+      "lat": 41.884914758397,
+      "lng": -87.629549572293,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "150 N DEARBORN ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16"
+    },
+    "goodman": {
+      "lat": 41.885165897733,
+      "lng": -87.629554228101,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "170 N DEARBORN ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16"
+    },
+    "360": {
+      "lat": 41.898768343589,
+      "lng": -87.624038249653,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "875 N MICHIGAN AVE, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "yolk": {
+      "lat": 41.86890921761,
+      "lng": -87.624267128708,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1120 S MICHIGAN AVE, CHICAGO, IL, 60605",
+      "checked": "2026-09-16"
+    },
+    "second-city": {
+      "lat": 41.911258436748,
+      "lng": -87.636027894865,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "230 NORTH AVE, CHICAGO, IL, 60610",
+      "checked": "2026-09-16"
+    },
+    "five-squared": {
+      "lat": 41.905518887189,
+      "lng": -87.648209797331,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1332 N HALSTED ST, CHICAGO, IL, 60642",
+      "checked": "2026-09-16"
+    },
+    "thalia": {
+      "lat": 41.857770174913,
+      "lng": -87.657568803824,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1807 S ALLPORT ST, CHICAGO, IL, 60608",
+      "checked": "2026-09-16"
+    },
+    "wormhole-lead": {
+      "lat": 41.90843706417,
+      "lng": -87.674550514846,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1462 N MILWAUKEE AVE, CHICAGO, IL, 60622",
+      "checked": "2026-09-16",
+      "categories": [
+        "coffee"
+      ]
+    },
+    "field": {
+      "lat": 41.868263653882,
+      "lng": -87.617866676914,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1400 LAKE SHORE DR, CHICAGO, IL, 60605",
+      "checked": "2026-09-16"
+    },
+    "volume-gallery": {
+      "lat": 41.889901442277,
+      "lng": -87.669624703166,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1700 W HUBBARD ST, CHICAGO, IL, 60622",
+      "checked": "2026-09-16"
+    },
+    "monadnock-building": {
+      "lat": 41.878104850676,
+      "lng": -87.629636798424,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "53 W JACKSON BLVD, CHICAGO, IL, 60604",
+      "checked": "2026-09-16"
+    },
+    "robie-house": {
+      "lat": 41.78985221414,
+      "lng": -87.596344153866,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "5757 S WOODLAWN AVE, CHICAGO, IL, 60637",
+      "checked": "2026-09-16"
+    },
+    "marina-city": {
+      "lat": 41.887858440316,
+      "lng": -87.628094213142,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "300 N STATE ST, CHICAGO, IL, 60654",
+      "checked": "2026-09-16"
+    },
+    "zazas": {
+      "lat": 41.93698976459,
+      "lng": -87.648186157048,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "3037 N CLARK ST, CHICAGO, IL, 60657",
+      "checked": "2026-09-16"
+    },
+    "heurtley-house": {
+      "lat": 41.892265012991,
+      "lng": -87.800205097628,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "318 FOREST AVE, OAK PARK, IL, 60302",
+      "checked": "2026-09-16"
+    },
+    "pequods": {
+      "lat": 41.921784540097,
+      "lng": -87.664523215724,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2207 N CLYBOURN AVE, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "spacca": {
+      "lat": 41.963298838532,
+      "lng": -87.673427887879,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1769 W SUNNYSIDE AVE, CHICAGO, IL, 60640",
+      "checked": "2026-09-16"
+    },
+    "boka": {
+      "lat": 41.912952547076,
+      "lng": -87.648258378499,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1729 N HALSTED ST, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "symphony": {
+      "lat": 41.879261225909,
+      "lng": -87.624499386276,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "220 S MICHIGAN AVE, CHICAGO, IL, 60604",
+      "checked": "2026-09-16"
+    },
+    "art-institute": {
+      "lat": 41.880649213362,
+      "lng": -87.624171570115,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "111 S MICHIGAN AVE, CHICAGO, IL, 60603",
+      "checked": "2026-09-16"
+    },
+    "iit-campus": {
+      "lat": 41.831067772341,
+      "lng": -87.626815853448,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "10 W 35TH ST, CHICAGO, IL, 60616",
+      "checked": "2026-09-16"
+    },
+    "lous": {
+      "lat": 41.871703733195,
+      "lng": -87.627376000792,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "805 S STATE ST, CHICAGO, IL, 60605",
+      "checked": "2026-09-16"
+    },
+    "max-issy": {
+      "lat": 41.932674623246,
+      "lng": -87.655032412385,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1028 W DIVERSEY PKWY, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "green-market": {
+      "lat": 41.914649388896,
+      "lng": -87.633678065866,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1817 N CLARK ST, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "twinanchors": {
+      "lat": 41.912611250087,
+      "lng": -87.638560250932,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1655 N SEDGWICK ST, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "buddy": {
+      "lat": 41.873064094619,
+      "lng": -87.626041167694,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "700 S WABASH AVE, CHICAGO, IL, 60605",
+      "checked": "2026-09-16"
+    },
+    "aba": {
+      "lat": 41.886893036448,
+      "lng": -87.648753425567,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "302 N GREEN ST, CHICAGO, IL, 60607",
+      "checked": "2026-09-16"
+    },
+    "reliance-building": {
+      "lat": 41.882744000855,
+      "lng": -87.627932680159,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "32 N STATE ST, CHICAGO, IL, 60602",
+      "checked": "2026-09-16"
+    },
+    "crown-hall": {
+      "lat": 41.833534713365,
+      "lng": -87.626745696814,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "3360 S STATE ST, CHICAGO, IL, 60616",
+      "checked": "2026-09-16"
+    },
+    "portillos": {
+      "lat": 41.893285439561,
+      "lng": -87.631244218212,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "100 W ONTARIO ST, CHICAGO, IL, 60654",
+      "checked": "2026-09-16"
+    },
+    "paulies": {
+      "lat": 41.925827628734,
+      "lng": -87.701998575269,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2451 N MILWAUKEE AVE, CHICAGO, IL, 60647",
+      "checked": "2026-09-16"
+    },
+    "ginos": {
+      "lat": 41.895814438664,
+      "lng": -87.622910033918,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "162 E SUPERIOR ST, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "indienne": {
+      "lat": 41.894724955885,
+      "lng": -87.634929916709,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "217 W HURON ST, CHICAGO, IL, 60654",
+      "checked": "2026-09-16"
+    },
+    "lyric": {
+      "lat": 41.882191369239,
+      "lng": -87.637100009791,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "20 N WACKER DR, CHICAGO, IL, 60606",
+      "checked": "2026-09-16"
+    },
+    "marisol-restaurant": {
+      "lat": 41.897557620123,
+      "lng": -87.621697744248,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "205 E PEARSON ST, CHICAGO, IL, 60611",
+      "checked": "2026-09-16",
+      "categories": [
+        "food"
+      ]
+    },
+    "bonci": {
+      "lat": 41.883884228037,
+      "lng": -87.650847978796,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "161 N SANGAMON ST, CHICAGO, IL, 60607",
+      "checked": "2026-09-16"
+    },
+    "dearborn": {
+      "lat": 41.885262179617,
+      "lng": -87.629403691865,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "145 N DEARBORN ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16"
+    },
+    "ama-plaza": {
+      "lat": 41.888444993053,
+      "lng": -87.627289918295,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "330 N WABASH AVE, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "glessner": {
+      "lat": 41.857862401516,
+      "lng": -87.620842681872,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1800 S PRAIRIE AVE, CHICAGO, IL, 60616",
+      "checked": "2026-09-16"
+    },
+    "intelligentsia": {
+      "lat": 41.884440849376,
+      "lng": -87.625780687035,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "53 E RANDOLPH ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16",
+      "categories": [
+        "coffee"
+      ]
+    },
+    "design-museum": {
+      "lat": 41.884555440727,
+      "lng": -87.625299250873,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "72 E RANDOLPH ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16",
+      "hours": {
+        "weekly": {
+          "0": [
+            [
+              600,
+              1020
+            ]
+          ],
+          "1": [
+            [
+              600,
+              1020
+            ]
+          ],
+          "2": [
+            [
+              600,
+              1020
+            ]
+          ],
+          "3": [
+            [
+              600,
+              1020
+            ]
+          ],
+          "4": [
+            [
+              600,
+              1020
+            ]
+          ],
+          "5": [
+            [
+              600,
+              1020
+            ]
+          ],
+          "6": [
+            [
+              600,
+              1020
+            ]
+          ]
+        },
+        "exceptions": {
+          "2026-01-01": [],
+          "2026-03-14": [],
+          "2026-05-25": [],
+          "2026-07-04": [],
+          "2026-09-07": [],
+          "2026-11-26": [],
+          "2026-12-25": []
+        },
+        "summary": "Daily 10:00–17:00; closed on listed city holidays.",
+        "source": "https://www.designchicago.org/visitor-information",
+        "checked": "2026-09-16",
+        "validThrough": "2026-12-31"
+      }
+    },
+    "craft": {
+      "lat": 41.904437499729,
+      "lng": -87.677368273565,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1252 N DAMEN AVE, CHICAGO, IL, 60622",
+      "checked": "2026-09-16"
+    },
+    "nathan-moore": {
+      "lat": 41.892399842658,
+      "lng": -87.800361902676,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "333 FOREST AVE, OAK PARK, IL, 60302",
+      "checked": "2026-09-16"
+    },
+    "lula": {
+      "lat": 41.927596654276,
+      "lng": -87.706926025708,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2537 N KEDZIE AVE, CHICAGO, IL, 60647",
+      "checked": "2026-09-16"
+    },
+    "home-studio": {
+      "lat": 41.894256279247,
+      "lng": -87.799521726596,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "951 CHICAGO AVE, OAK PARK, IL, 60302",
+      "checked": "2026-09-16"
+    },
+    "farnsworth-house": {
+      "lat": 41.63635478795,
+      "lng": -88.533970505025,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "14520 RIVER RD, PLANO, IL, 60545",
+      "checked": "2026-09-16"
+    },
+    "skydeck": {
+      "lat": 41.878916229496,
+      "lng": -87.636602795305,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "233 S WACKER DR, CHICAGO, IL, 60606",
+      "checked": "2026-09-16"
+    },
+    "sawada-coffee": {
+      "lat": 41.883361535072,
+      "lng": -87.648650202146,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "112 N GREEN ST, CHICAGO, IL, 60607",
+      "checked": "2026-09-16",
+      "categories": [
+        "coffee"
+      ]
+    },
+    "unity-temple": {
+      "lat": 41.88863090013,
+      "lng": -87.796590797882,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "875 LAKE ST, OAK PARK, IL, 60301",
+      "checked": "2026-09-16"
+    },
+    "caa-hotel": {
+      "lat": 41.881613273054,
+      "lng": -87.624537029701,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "12 S MICHIGAN AVE, CHICAGO, IL, 60603",
+      "checked": "2026-09-16"
+    },
+    "greenmill": {
+      "lat": 41.969137174182,
+      "lng": -87.659750602571,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "4802 N BROADWAY ST, CHICAGO, IL, 60640",
+      "checked": "2026-09-16"
+    },
+    "galit": {
+      "lat": 41.926150146567,
+      "lng": -87.649637729148,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2429 N LINCOLN AVE, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "burts": {
+      "lat": 42.036969698319,
+      "lng": -87.7848791139,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "8541 FERRIS AVE, MORTON GROVE, IL, 60053",
+      "checked": "2026-09-16"
+    },
+    "revival": {
+      "lat": 41.879894571142,
+      "lng": -87.630755983561,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "125 S CLARK ST, CHICAGO, IL, 60605",
+      "checked": "2026-09-16"
+    },
+    "eataly": {
+      "lat": 41.892441848054,
+      "lng": -87.6266712806,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "43 E OHIO ST, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "atsumeru": {
+      "lat": 41.898903909343,
+      "lng": -87.667293445328,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "933 N ASHLAND AVE, CHICAGO, IL, 60622",
+      "checked": "2026-09-16"
+    },
+    "roberts": {
+      "lat": 41.891108611446,
+      "lng": -87.617591892616,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "465 N MCCLURG CT, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "mansueto": {
+      "lat": 41.791485370518,
+      "lng": -87.598152543493,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1100 E 57TH ST, CHICAGO, IL, 60637",
+      "checked": "2026-09-16"
+    },
+    "mca-museum": {
+      "lat": 41.896824755958,
+      "lng": -87.621756021322,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "220 E CHICAGO AVE, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "andys": {
+      "lat": 41.890011848534,
+      "lng": -87.627810089704,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "11 E HUBBARD ST, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "johns": {
+      "lat": 41.920294425479,
+      "lng": -87.64866153333,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2114 N HALSTED ST, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "wrigley": {
+      "lat": 41.947270368295,
+      "lng": -87.656132001902,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1060 W ADDISON ST, CHICAGO, IL, 60613",
+      "checked": "2026-09-16"
+    },
+    "monique-meloche": {
+      "lat": 41.890281889996,
+      "lng": -87.669481511438,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "451 N PAULINA ST, CHICAGO, IL, 60622",
+      "checked": "2026-09-16"
+    },
+    "cac": {
+      "lat": 41.888139848632,
+      "lng": -87.623818054576,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "111 E WACKER DR, CHICAGO, IL, 60601",
+      "checked": "2026-09-16"
+    },
+    "united": {
+      "lat": 41.881291171765,
+      "lng": -87.674216570865,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1901 W MADISON ST, CHICAGO, IL, 60612",
+      "checked": "2026-09-16"
+    },
+    "hawksmoor": {
+      "lat": 41.890855440061,
+      "lng": -87.632747215083,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "500 N LA SALLE DR, CHICAGO, IL, 60654",
+      "checked": "2026-09-16"
+    },
+    "labriola": {
+      "lat": 41.891869786971,
+      "lng": -87.62401462005,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "535 MICHIGAN AVE, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "notre-shop": {
+      "lat": 41.883386288451,
+      "lng": -87.649821036123,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "118 N PEORIA ST, CHICAGO, IL, 60607",
+      "checked": "2026-09-16",
+      "categories": [
+        "shops"
+      ]
+    },
+    "cultural-center": {
+      "lat": 41.883277440933,
+      "lng": -87.625067547676,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "78 E WASHINGTON ST, CHICAGO, IL, 60602",
+      "checked": "2026-09-16"
+    },
+    "coalfire": {
+      "lat": 41.890992850141,
+      "lng": -87.6597213996,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1321 W GRAND AVE, CHICAGO, IL, 60642",
+      "checked": "2026-09-16"
+    },
+    "mariscos": {
+      "lat": 41.857878194699,
+      "lng": -87.657503679469,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1227 W 18TH ST, CHICAGO, IL, 60608",
+      "checked": "2026-09-16"
+    },
+    "plein-air": {
+      "lat": 41.790072032707,
+      "lng": -87.596347963171,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "5751 S WOODLAWN AVE, CHICAGO, IL, 60637",
+      "checked": "2026-09-16",
+      "categories": [
+        "coffee"
+      ]
+    },
+    "spiltmilk": {
+      "lat": 41.886823844122,
+      "lng": -87.795203358592,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "811 SOUTH BLVD, OAK PARK, IL, 60302",
+      "checked": "2026-09-16",
+      "hours": {
+        "weekly": {
+          "1": [
+            [
+              480,
+              1020
+            ]
+          ],
+          "2": [
+            [
+              480,
+              1020
+            ]
+          ],
+          "3": [
+            [
+              480,
+              1020
+            ]
+          ],
+          "4": [
+            [
+              480,
+              1020
+            ]
+          ],
+          "5": [
+            [
+              480,
+              1020
+            ]
+          ],
+          "6": [
+            [
+              480,
+              1020
+            ]
+          ]
+        },
+        "exceptions": {},
+        "summary": "Mon–Sat 08:00–17:00. Sunday hours conflict across official pages; check with the café. Holiday changes may apply.",
+        "source": "https://www.spiltmilkpastry.com/pages/contact",
+        "checked": "2026-09-16",
+        "validThrough": "2026-11-01"
+      }
+    },
+    "patron": {
+      "lat": 41.896122230127,
+      "lng": -87.667831352953,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "1612 W CHICAGO AVE, CHICAGO, IL, 60622",
+      "checked": "2026-09-16"
+    },
+    "rockefeller": {
+      "lat": 41.788692920299,
+      "lng": -87.596470277633,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "5850 S WOODLAWN AVE, CHICAGO, IL, 60637",
+      "checked": "2026-09-16"
+    },
+    "oldtownale": {
+      "lat": 41.91102978199,
+      "lng": -87.635536289902,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "219 NORTH AVE, CHICAGO, IL, 60610",
+      "checked": "2026-09-16"
+    },
+    "mon-ami": {
+      "lat": 41.923875167384,
+      "lng": -87.63659191681,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "2300 N LINCOLN PARK W, CHICAGO, IL, 60614",
+      "checked": "2026-09-16"
+    },
+    "rosas": {
+      "lat": 41.917395644295,
+      "lng": -87.712283126798,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "3420 W ARMITAGE AVE, CHICAGO, IL, 60647",
+      "checked": "2026-09-16"
+    },
+    "purplepig": {
+      "lat": 41.890643948328,
+      "lng": -87.624295856683,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "444 N MICHIGAN AVE, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "lake-towers": {
+      "lat": 41.89849883541,
+      "lng": -87.618288854628,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "860 N LAKE SHORE DR, CHICAGO, IL, 60611",
+      "checked": "2026-09-16"
+    },
+    "rookery-light": {
+      "lat": 41.87913450862,
+      "lng": -87.632207578481,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "209 S LA SALLE ST, CHICAGO, IL, 60604",
+      "checked": "2026-09-16"
+    },
+    "federal-center": {
+      "lat": 41.879171847937,
+      "lng": -87.629268634345,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "219 S DEARBORN ST, CHICAGO, IL, 60604",
+      "checked": "2026-09-16"
+    },
+    "foxhole": {
+      "lat": 41.942561488288,
+      "lng": -87.663815649779,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "3335 N SOUTHPORT AVE, CHICAGO, IL, 60657",
+      "checked": "2026-09-16"
+    },
+    "giordanos": {
+      "lat": 41.88452844065,
+      "lng": -87.623845751304,
+      "precision": "Address estimate; check the visitor entrance",
+      "locationSource": "https://geocoding.geo.census.gov/geocoder/",
+      "matchedAddress": "130 E RANDOLPH ST, CHICAGO, IL, 60601",
+      "checked": "2026-09-16"
+    },
+    "bean": {
+      "lat": 41.8826861,
+      "lng": -87.6233406,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/137060274",
+      "checked": "2026-09-16"
+    },
+    "pritzker": {
+      "lat": 41.8835083,
+      "lng": -87.6218904,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/126978545",
+      "checked": "2026-09-16"
+    },
+    "mtcc": {
+      "lat": 41.8356782,
+      "lng": -87.6258341,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/relation/17010865",
+      "checked": "2026-09-16"
+    },
+    "carr": {
+      "lat": 41.8362604,
+      "lng": -87.6243883,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/210535410",
+      "checked": "2026-09-16"
+    },
+    "adler": {
+      "lat": 41.8663624,
+      "lng": -87.6066267,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/24825591",
+      "checked": "2026-09-16"
+    },
+    "shedd": {
+      "lat": 41.8676159,
+      "lng": -87.6136792,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/relation/17430414",
+      "checked": "2026-09-16"
+    },
+    "soldier": {
+      "lat": 41.8624703,
+      "lng": -87.616724,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/24587933",
+      "checked": "2026-09-16"
+    },
+    "dusable": {
+      "lat": 41.7918722,
+      "lng": -87.6072653,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/33769411",
+      "checked": "2026-09-16"
+    },
+    "auditorium": {
+      "lat": 41.8760483,
+      "lng": -87.6252727,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/1269032994",
+      "checked": "2026-09-16"
+    },
+    "navypier": {
+      "lat": 41.8917312,
+      "lng": -87.6041467,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/24800238",
+      "checked": "2026-09-16"
+    },
+    "theatre-lake": {
+      "lat": 41.9270945,
+      "lng": -87.630651,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/23989552",
+      "checked": "2026-09-16"
+    },
+    "oakbeach": {
+      "lat": 41.9029507,
+      "lng": -87.6227411,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/way/23803745",
+      "checked": "2026-09-16"
+    },
+    "south-loop-loft": {
+      "lat": 41.8941281,
+      "lng": -87.6518501,
+      "precision": "Mapped venue or site centre; check the visitor entrance",
+      "locationSource": "https://www.openstreetmap.org/node/13381778313",
+      "checked": "2026-09-16"
+    },
+    "rsvp-gallery": {
+      "categories": [
+        "shops"
+      ]
+    },
+    "saint-alfred": {
+      "categories": [
+        "shops"
+      ]
+    }
+  }
+}
